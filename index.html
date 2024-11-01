@@ -3,7 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>ぶんせい</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__inner">
+          <h1 class="logo">
+            <a href="#">
+              <img src="images/logo-black.png" alt="ぶんせいロゴ" />
+            </a>
+          </h1>
+
+          <nav class="header__nav nav" id="js-nav">
+            <ul class="nav__items nav-items">
+              <li class="nav-items__item"><a href="">メニュー</a></li>
+              <li class="nav-items__item"><a href="">メニュー</a></li>
+              <li class="nav-items__item"><a href="">メニュー</a></li>
+              <li class="nav-items__item"><a href="">メニュー</a></li>
+            </ul>
+          </nav>
+
+          <button class="header__hamburger hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+      <main>
+        <h1>ぶんせい</h1>
+        <h2>受験・進学・補習をサポートする巣鴨の総合学習塾</h2>
+        <ul>
+          <li>2024年授業要項</li>
+          <li>年間予定表</li>
+          <li>入試速報</li>
+          <li>大人になったぶんのすけ達</li>
+          <li>ぶんせい美術館</li>
+        </ul>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
