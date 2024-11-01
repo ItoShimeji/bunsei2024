@@ -4,7 +4,7 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-header {
+/* header {
   max-width: 100%;
   height: 7rem;
   background-color: #192a86;
@@ -35,4 +35,4 @@ header nav a {
   color: inherit;
   text-decoration: none;
   white-space: nowrap;
-}
+} */
