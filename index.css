@@ -19,11 +19,14 @@ body {
 }
 
 .intro {
-  height: 100vh;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title-conteiner {
-  height: 70vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,4 +61,32 @@ body {
     font-size: 2.4rem;
     line-height: 3rem;
   }
+}
+
+.links-container {
+  margin-bottom: 1rem;
+}
+
+.links {
+  list-style: none;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.links li {
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  margin-bottom: 0.6rem;
+
+  background-color: #eeeeee;
+  border: #223eb2 2px solid;
+  border-radius: 0.4rem;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
+}
+
+.links li a {
+  color: #404040;
+  text-decoration: none;
 }
