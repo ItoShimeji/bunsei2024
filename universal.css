@@ -13,7 +13,7 @@ body {
 
 @media screen and (min-width: 960px) {
   .main {
-    max-width: 1280px;
+    max-width: 960px;
     padding: 0 3rem 0 3rem;
     margin: 6rem auto 0 auto;
   }
@@ -31,14 +31,14 @@ li {
   word-break: normal;
 }
 
-ul.list-check {
+ul {
   list-style-type: none;
 }
-ul.list-check li {
+ul > li {
   position: relative;
   padding: 0em 0.3em 0.3em 1.3em;
 }
-ul.list-check li::before {
+ul.list-check > li::before {
   position: absolute;
   content: "";
   display: block;
@@ -51,13 +51,37 @@ ul.list-check li::before {
   transform: rotate(-45deg);
 }
 
+ul.list-star > li::before {
+  position: absolute;
+  content: "★";
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  color: #e0be25;
+}
+
 a {
-  color: #262626;
+  color: #2987b3;
+  text-decoration: underline;
+  font-weight: 700;
+  padding: 0 0.1rem;
+}
+a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .secondary {
-  color: #e24950;
+  /* color: #e24950; */
   font-weight: 700;
   padding: 0 0.1rem;
+}
+.primary {
+  display: block;
+  color: #e24950;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 0.2rem;
 }
