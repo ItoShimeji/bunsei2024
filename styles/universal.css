@@ -59,13 +59,9 @@ h3 {
   padding-bottom: 0.2rem;
 }
 
-p {
-  line-height: 1.5rem;
-  overflow-wrap: break-word;
-  word-break: normal;
-}
-
-li {
+p,
+li,
+table {
   line-height: 1.5rem;
   overflow-wrap: break-word;
   word-break: normal;
@@ -76,7 +72,7 @@ ul {
 }
 ul > li {
   position: relative;
-  padding: 0em 0.3em 0.3em 1.3em;
+  padding: 0rem 0.3rem 0.3rem 1.3rem;
 }
 ul.list-star > li {
   margin-bottom: 1.5rem;
@@ -133,3 +129,22 @@ b {
   font-weight: 700;
   padding-bottom: 0.2rem;
 } */
+
+table {
+  box-sizing: border-box;
+  margin: 1rem 0 0.1rem 0;
+  width: 100%;
+}
+table th,
+table td {
+  border: 3px solid #eeeeee;
+  background-color: #d2dcea;
+  padding: 0.4rem 0.6rem;
+}
+table th {
+  background-color: #3d6dbe;
+  color: #eeeeee;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 4rem;
+}
