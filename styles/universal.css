@@ -23,6 +23,11 @@ main {
   }
 }
 
+iframe {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .top-section {
   margin-bottom: 6rem;
 }
