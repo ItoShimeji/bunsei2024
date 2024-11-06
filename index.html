@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="universal.css" />
-    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/universal.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,12 +22,13 @@
         <div class="header__inner">
           <h1 class="logo">
             <a href="#">
-              <img src="./src/logo.gif" alt="ぶんせいロゴ" />
+              <img src="./imgs/logo.gif" alt="ぶんせいロゴ" />
             </a>
           </h1>
 
           <nav class="header__nav nav" id="js-nav">
             <ul class="nav__items nav-items">
+              <li class="nav-items__item"><a href="">トップ</a></li>
               <li class="nav-items__item"><a href="">お知らせ</a></li>
               <li class="nav-items__item"><a href="">入塾案内</a></li>
               <li class="nav-items__item"><a href="">コース</a></li>
@@ -41,9 +43,9 @@
           </button>
         </div>
       </header>
-      <main class="main">
+      <main>
         <section class="intro">
-          <div class="title-conteiner">
+          <div class="title-container">
             <h1 class="title">ぶんせい</h1>
             <h2 class="title-text">
               <p>受験・進学・補習をサポートする</p>
@@ -60,81 +62,65 @@
             </ul>
           </div>
         </section>
-        <section class="notice">
+        <section class="top-section notice">
           <h1>お知らせ</h1>
           <article class="notice-overview">
-            <p>
-              日曜教室のご案内（小６・中３の受験生対象）<br />
-              詳細はこちら（<a href="">小６</a>・<a href="">中３</a>）をご覧ください。
-            </p>
-            <p>
-              <strong class="primary">新入生募集中</strong>
-              2024年度の授業概要は<a href="">こちら</a>です。<br>
-              個別指導に関しては<a href="">こちら</a>をご覧ください。<br>
-              お気軽にお問い合わせ下さい。TEL
-              00-0000-0000（平日14時～、土12時～）
-            </p>
-            <p>
+            <div class="paragraph">
+              <p>
+                日曜教室のご案内（小６・中３の受験生対象）<br />
+                詳細はこちら（<a href="">小６</a>・<a href="">中３</a
+                >）をご覧ください。
+              </p>
+            </div>
+            <div class="paragraph">
+              <h3>新入生募集中</h3>
+              <p>
+                2024年度の授業概要は<a href="">こちら</a>です。<br />
+                個別指導に関しては<a href="">こちら</a>をご覧ください。<br />
+                お気軽にお問い合わせ下さい。<br />
+                TEL00-0000-0000（平日14時～、土12時～）
+              </p>
+            </div>
+            <div class="paragraph">
               <ul class="list-check">
-                <li>本格的に受験勉強を始めたい<strong class="secondary">新小４！</strong></li>
-                <li>今から受験でも大丈夫かなと不安な<strong class="secondary">小５・６！</strong></li>
-                <li>もちろん中学受験をしない<strong class="secondary">小学生も！</strong></li>
-                <li>スタートダッシュで周りと差をつけたい<strong class="secondary">中1！</strong></li>
-                <li>定期考査の準備や結果に悩んでいる<strong class="secondary">中２！</strong></li>
-                <li>いよいよ受験生の<strong class="secondary">中３！</strong></li>
-                <li>もちろん<strong class="secondary">私国立中高一貫生も！</strong></li>
+                <li>本格的に受験勉強を始めたい<b>新小４ !</b></li>
+                <li>今から受験でも大丈夫かなと不安な<b>小５・６ !</b></li>
+                <li>もちろん中学受験をしない<b>小学生も !</b></li>
+                <li>スタートダッシュで周りと差をつけたい<b>中1 !</b></li>
+                <li>定期考査の準備や結果に悩んでいる<b>中２ !</b></li>
+                <li>いよいよ受験生の<b>中３ !</b></li>
+                <li>もちろん<b>私国立中高一貫生も !</b></li>
               </ul>
-              お待ちしております！
-            </p>
-            <p>
-              2022年3月1日から新校舎（第二川端ビル）での授業を開始しております。
-              新校舎の地図は<a href="">こちら</a>をご覧下さい。
-            </p>
+              <p>お待ちしております !</p>
+            </div>
+            <div class="paragraph">
+              <p>
+                2022年3月1日から新校舎（第二川端ビル）での授業を開始しております。
+                新校舎の地図は<a href="">こちら</a>をご覧下さい。
+              </p>
+            </div>
           </article>
-
-          <article class="notice-article">
-            <h2>連絡事項</h2>
-            <p>
-            <ul class="list-star">
-              <li>
-                「ぶんせい」ではこんな生徒を募集しております。
-                <ul class="list-check">
-                  <li>
-                    少し出遅れたけど５年生や６年生から中学受験の準備をしたい方
-                  </li>
-                  <li>本格的に中学受験の準備をしたい４年生</li>
-                  <li>
-                    無理のない受験生生活で合格を目指したい方（５年生は夕食は自宅でとれます）
-                  </li>
-                  <li>
-                    定期テストの準備の仕方、成績の上げ方が分からない中学１、２年生。
-                  </li>
-                  <li>
-                    中学受験はしないが、高校受験を見据えてじっくり学びたい小学生
-                  </li>
-                  <li>高校の授業を補強したい高校１～２年生</li>
-                  <li>
-                    体験授業も承っておりますので、お気軽にお電話ください。
-                  </li>
-                </ul>
-                体験授業も承っておりますので、お気軽にお電話ください。
-              </li>
-            </ul>
-          </p>
-          </article>
-          <article class="notice-article"></article>
-          <article class="notice-article"></article>
-          <article class="notice-article"></article>
+          <ul>
+            <li><a href="notice/notice.html">連絡事項</a></li>
+            <li><a href="notice/notice.html">生徒へのお知らせ</a></li>
+            <li><a href="notice/notice.html">保護者の皆様へのお知らせ</a></li>
+            <li>
+              <a href="notice/notice.html"
+                >個別指導「ついまあ」の保護者へのお知らせ</a
+              >
+            </li>
+          </ul>
         </section>
-        <section class="admission">
+        <section class="top-section admission">
           <h1>入塾案内</h1>
         </section>
-        <section class="course">
+        <section class="top-section course">
           <h1>コース</h1>
         </section>
-        <section class="access"><h1>アクセス</h1></section>
+        <section class="top-section access"><h1>アクセス</h1></section>
       </main>
+      <footer class="footer"></footer>
     </div>
-    <script src="index.js"></script>
+    <script src="js/header.js"></script>
   </body>
 </html>

@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-.title-conteiner {
+.title-container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -68,30 +68,6 @@
 
 .links li a {
   color: #262626;
+  font-weight: 400;
   text-decoration: none;
-}
-
-article {
-  margin-bottom: 2rem;
-}
-
-article p {
-  margin-bottom: 1.5rem;
-}
-
-.notice h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.notice-article h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.6rem;
-
-  display: inline;
-}
-
-.notice-article h2:nth-of-type(odd) {
-  background-color: teal;
 }
