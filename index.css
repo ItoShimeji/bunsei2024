@@ -71,3 +71,42 @@
   font-weight: 400;
   text-decoration: none;
 }
+
+.notice-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2列に分割 */
+  grid-template-rows: 1fr 1fr; /* 2行に分割 */
+  gap: 0.4rem; /* 各アイテム間のスペース */
+}
+
+.notice-grid-item {
+  background-color: #ccc;
+  color: #262626;
+  border-radius: 0.4rem;
+  padding: 0.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.notice-grid-item a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.notice-grid-item a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: rotate(45deg) translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  border-color: #333;
+}
