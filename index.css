@@ -74,14 +74,14 @@
   text-decoration: none;
 }
 
-.notice-grid-container {
+.top-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* 2列に分割 */
   grid-template-rows: 1fr 1fr; /* 2行に分割 */
   gap: 0.4rem; /* 各アイテム間のスペース */
 }
 
-.notice-grid-item {
+.top-grid-item {
   background-color: #ccc;
   color: #262626;
   border-radius: 0.4rem;
@@ -95,13 +95,13 @@
   cursor: pointer;
 }
 
-.notice-grid-item a {
+.top-grid-item a {
   color: #262626;
   text-decoration: none;
   font-size: 0.8rem;
 }
 
-.notice-grid-item a::after {
+.top-grid-item a::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -113,3 +113,16 @@
   border-style: solid;
   border-color: #333;
 }
+
+/* .top-grid-course .top-grid-item:nth-of-type(1) {
+  background-color: rgb(223, 223, 125);
+}
+.top-grid-course .top-grid-item:nth-of-type(2) {
+  background-color: rgb(222, 165, 114);
+}
+.top-grid-course .top-grid-item:nth-of-type(3) {
+  background-color: rgb(125, 177, 223);
+}
+.top-grid-course .top-grid-item:nth-of-type(4) {
+  background-color: rgb(151, 223, 125);
+} */
