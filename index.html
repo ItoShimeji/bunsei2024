@@ -21,18 +21,21 @@
       <header class="header">
         <div class="header__inner">
           <h1 class="logo">
-            <a href="#">
+            <a href="">
               <img src="./imgs/logo.gif" alt="ぶんせいロゴ" />
             </a>
           </h1>
 
           <nav class="header__nav nav" id="js-nav">
             <ul class="nav__items nav-items">
-              <li class="nav-items__item"><a href="">トップ</a></li>
-              <li class="nav-items__item"><a href="">お知らせ</a></li>
-              <li class="nav-items__item"><a href="">入塾案内</a></li>
-              <li class="nav-items__item"><a href="">コース</a></li>
-              <li class="nav-items__item"><a href="">アクセス</a></li>
+              <li class="nav-items__item"><a href="/">トップ</a></li>
+              <li class="nav-items__item"><a href="">2024年授業要項</a></li>
+              <li class="nav-items__item"><a href="">年間予定表</a></li>
+              <li class="nav-items__item"><a href="">入試速報</a></li>
+              <li class="nav-items__item">
+                <a href="">大人になったぶんのすけ達</a>
+              </li>
+              <li class="nav-items__item"><a href="">ぶんせい美術館</a></li>
             </ul>
           </nav>
 
@@ -54,15 +57,14 @@
           </div>
           <div class="links-container">
             <ul class="links">
-              <li><a href="">2024年授業要項</a></li>
-              <li><a href="">年間予定表</a></li>
-              <li><a href="">入試速報</a></li>
-              <li><a href="">大人になったぶんのすけ達</a></li>
-              <li><a href="">ぶんせい美術館</a></li>
+              <li><a href="#notice-general">お知らせ</a></li>
+              <li><a href="#for-students">入塾案内</a></li>
+              <li><a href="#for-parents">コース</a></li>
+              <li><a href="#about-personal-guidance">アクセス</a></li>
             </ul>
           </div>
         </section>
-        <section class="top-section notice">
+        <section class="top-section notice" id="notice-general">
           <h1>お知らせ</h1>
           <article class="notice-overview">
             <div class="paragraph">
@@ -115,7 +117,7 @@
             </li>
           </ul>
         </section>
-        <section class="top-section admission">
+        <section class="top-section admission" id="for-students">
           <h1>入塾案内</h1>
           <div class="paragraph">
             <h2>入塾までの流れ</h2>
@@ -162,7 +164,7 @@
             </p>
           </div>
         </section>
-        <section class="top-section course">
+        <section class="top-section course" id="for-parents">
           <h1>コース</h1>
           <div class="paragraph">
             <p>中学受験から大学受験まで大歓迎です !</p>
@@ -182,7 +184,7 @@
             </li>
           </ul>
         </section>
-        <section class="top-section access">
+        <section class="top-section access" id="about-personal-guidance">
           <h1>アクセス</h1>
           <div class="paragraph">
             <p>
@@ -212,6 +214,7 @@
       <footer class="footer"></footer>
     </div>
     <script src="js/header.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
