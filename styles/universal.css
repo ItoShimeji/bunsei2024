@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +17,7 @@ body {
 main {
   padding: 2rem 1rem 0 1rem;
   margin: 5rem auto 0 auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 960px) {
@@ -46,17 +51,17 @@ h1 {
   text-align: center;
 }
 
-.notice-article h2 {
+article h2 {
   font-size: 1.5rem;
 
   display: inline-block;
   padding: 0.6rem 1.5rem 0.6rem 0.6rem;
   margin: 1rem 0 0.5rem 0;
 }
-.notice-article:nth-of-type(odd) > h2 {
+article:nth-of-type(odd) > h2 {
   border-left: solid 5px #35d232;
 }
-.notice-article:nth-of-type(even) > h2 {
+article:nth-of-type(even) > h2 {
   border-left: solid 5px #e062b3;
 }
 
@@ -94,7 +99,7 @@ ol > li {
   padding: 0rem 0.3rem 0.3rem 1.6rem;
 }
 ul.list-star > li {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
 }
 ul.list-star > li > h3 {
   font-size: 1.1rem;

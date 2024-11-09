@@ -1,0 +1,25 @@
+article:nth-of-type(1) > h2 {
+  border-left: solid 5px #d1ce35;
+}
+article:nth-of-type(2) > h2 {
+  border-left: solid 5px #d67f43;
+}
+article:nth-of-type(3) > h2 {
+  border-left: solid 5px #3dc1bd;
+}
+article:nth-of-type(4) > h2 {
+  border-left: solid 5px #5dc166;
+}
+
+.course-img {
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+.course-img img:nth-of-type(1) {
+  width: 60%;
+}
+.course-img img:nth-of-type(2) {
+  width: 40%;
+}
