@@ -77,8 +77,7 @@
 
 .top-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 2列に分割 */
-  grid-template-rows: 1fr 1fr; /* 2行に分割 */
+  grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
   gap: 0.4rem; /* 各アイテム間のスペース */
 }
 
