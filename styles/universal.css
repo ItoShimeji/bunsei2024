@@ -1,3 +1,14 @@
+:root {
+  --white: #eeeeee;
+  --white2: #ccc;
+  --black: #262626;
+  --blue: #192a86;
+  --blue2: #3d6dbe;
+  --blue3: #d2dcea;
+  --secondary-header1: #35d232;
+  --secondary-header2: #e062b3;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,8 +18,8 @@ html {
 }
 
 body {
-  background-color: #eeeeee;
-  color: #262626;
+  background-color: var(--white);
+  color: var(--black);
 
   font-family: "Noto Sans JP", sans-serif;
   word-break: break-word;
@@ -59,10 +70,10 @@ article h2 {
   margin: 1rem 0 0.5rem 0;
 }
 article:nth-of-type(odd) > h2 {
-  border-left: solid 5px #35d232;
+  border-left: solid 5px var(--secondary-header1);
 }
 article:nth-of-type(even) > h2 {
-  border-left: solid 5px #e062b3;
+  border-left: solid 5px var(--secondary-header2);
 }
 
 h3 {
@@ -103,7 +114,7 @@ ul.list-star > li {
 }
 ul.list-star > li > h3 {
   font-size: 1.1rem;
-  color: #262626;
+  color: var(--black);
   /* font-weight: 400; */
   margin-bottom: 0.2rem;
 }
@@ -132,7 +143,7 @@ ul.list-star > li::before {
 ol.list-circle > li::before {
   content: counters(list-item, ".") " ";
   background-color: #1baf6c;
-  color: #eeeeee;
+  color: var(--white);
   font-weight: 700;
   border: 1px solid;
   border-radius: 50%;
@@ -179,13 +190,13 @@ table {
 }
 table th,
 table td {
-  border: 3px solid #eeeeee;
-  background-color: #d2dcea;
+  border: 3px solid var(--white);
+  background-color: var(--blue3);
   padding: 0.4rem 0.6rem;
 }
 table th {
-  background-color: #3d6dbe;
-  color: #eeeeee;
+  background-color: var(--blue2);
+  color: var(--white);
   text-align: center;
   vertical-align: middle;
   min-width: 4rem;

@@ -10,8 +10,8 @@ main {
 
 .footer {
   justify-content: end;
-  background-color: #192a86;
-  color: #eeeeee;
+  background-color: var(--blue);
+  color: var(--white);
   /* height: 10rem; */
 
   padding: 2rem 1rem 2rem 1rem;
