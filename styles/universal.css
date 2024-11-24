@@ -67,7 +67,7 @@ article h2 {
 
   display: inline-block;
   padding: 0.6rem 1.5rem 0.6rem 0.6rem;
-  margin: 1rem 0 0.5rem 0;
+  margin: 1rem 0 1rem 0;
 }
 article:nth-of-type(odd) > h2 {
   border-left: solid 5px var(--secondary-header1);
@@ -82,6 +82,10 @@ h3 {
   font-size: 1.2rem;
   font-weight: 700;
   padding-bottom: 0.2rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
 }
 
 p,
@@ -185,8 +189,9 @@ b {
 } */
 
 table {
+  table-layout: fixed;
   box-sizing: border-box;
-  margin: 1rem 0 0.1rem 0;
+  margin: 0 0 0.1rem 0;
   width: 100%;
 }
 table th,
@@ -200,5 +205,5 @@ table th {
   color: var(--white);
   text-align: center;
   vertical-align: middle;
-  min-width: 4rem;
+  width: 5rem;
 }
