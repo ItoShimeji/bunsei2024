@@ -112,7 +112,8 @@ ol > li {
 ul.list-star > li {
   margin-bottom: 1.3rem;
 }
-ul.list-star > li > h3 {
+ul > li > h3,
+ol > li > h3 {
   font-size: 1.1rem;
   color: var(--black);
   /* font-weight: 400; */
@@ -126,8 +127,8 @@ ul.list-check > li::before {
   left: 0;
   width: 6px;
   height: 6px;
-  border-right: 3px solid #3dc1bd;
-  border-bottom: 3px solid #3dc1bd;
+  border-right: 3px solid var(--blue2);
+  border-bottom: 3px solid var(--blue2);
   transform: rotate(-45deg);
 }
 ul.list-star > li::before {
