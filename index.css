@@ -99,6 +99,9 @@
   color: var(--black);
   text-decoration: none;
   font-size: 0.8rem;
+  /* width: 100%;
+  height: 100%;
+  text-align: center; */
 }
 
 .top-grid-item a::after {
