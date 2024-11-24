@@ -1,0 +1,14 @@
+p {
+  line-height: 1.7rem;
+  text-indent: 1em;
+  margin-bottom: 0;
+}
+
+.paragraph {
+  margin-bottom: 2rem;
+}
+
+#signature {
+  margin-top: 3rem;
+  text-align: right;
+}
