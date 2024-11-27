@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../styles/reset.css" />
-    <link rel="stylesheet" href="../../styles/universal.css" />
-    <link rel="stylesheet" href="../../styles/header.css" />
-    <link rel="stylesheet" href="../../styles/footer.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/universal.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="../course.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,34 +18,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <div class="header__inner">
-          <h1 class="logo">
-            <a href="../../">
-              <img src="../../imgs/logo.gif" alt="ぶんせいロゴ" />
-            </a>
-          </h1>
-
-          <nav class="header__nav nav" id="js-nav">
-            <ul class="nav__items nav-items">
-              <li class="nav-items__item"><a href="/">トップ</a></li>
-              <li class="nav-items__item"><a href="">2024年授業要項</a></li>
-              <li class="nav-items__item"><a href="">年間予定表</a></li>
-              <li class="nav-items__item"><a href="">入試速報</a></li>
-              <li class="nav-items__item">
-                <a href="">大人になったぶんのすけ達</a>
-              </li>
-              <li class="nav-items__item"><a href="">ぶんせい美術館</a></li>
-            </ul>
-          </nav>
-
-          <button class="header__hamburger hamburger" id="js-hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-      </header>
+      <header class="header"></header>
       <main>
         <section class="top-section course">
           <h1>小学部</h1>
@@ -144,50 +117,10 @@
           </article>
         </section>
       </main>
-      <footer class="footer">
-        <div class="footer-title">
-          <h1>ぶんせい</h1>
-          <p>小学生から高校生の受験・補習・進学をサポートする</p>
-          <p>巣鴨の総合学習塾</p>
-        </div>
-        <div class="footer-paragraph">
-          <p>月謝の納入・料金等詳しくは電話にてお問い合せ下さい。<br /></p>
-        </div>
-        <div class="footer-paragraph">
-          <p>
-            東京都豊島区巣鴨1丁目10番地5号第2川端ビル2階(JR巣鴨駅南口から徒歩3分)
-            <br />
-            TEL 03-6903-7065 FAX 03-6903-7076 <br />
-            MAIL bunsei@bunseisha.biz
-          </p>
-        </div>
-        <div class="footer-links">
-          <div class="footer-guidance-links">
-            <h2>案内</h2>
-            <ul>
-              <li><a href="#notice">お知らせ</a></li>
-              <li><a href="#admission">入塾案内</a></li>
-              <li><a href="#course">コース</a></li>
-              <li><a href="#access">アクセス</a></li>
-            </ul>
-          </div>
-          <div class="footer-about-bunsei-links">
-            <h2>ぶんせいについて</h2>
-            <ul>
-              <li><a href="/">トップ</a></li>
-              <li><a href="">2024年授業要項</a></li>
-              <li><a href="">年間予定表</a></li>
-              <li><a href="">入試速報</a></li>
-              <li>
-                <a href="">大人になったぶんのすけ達</a>
-              </li>
-              <li><a href="">ぶんせい美術館</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      <footer class="footer"></footer>
     </div>
-    <script src="../../js/header.js"></script>
-    <script src="../../js/scroll.js"></script>
+    <script src="/js/headerLoader.js"></script>
+    <script src="/js/footerLoader.js"></script>
+    <script src="/js/scroll.js"></script>
   </body>
 </html>

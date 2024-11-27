@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/reset.css" />
-    <link rel="stylesheet" href="../styles/universal.css" />
-    <link rel="stylesheet" href="../styles/header.css" />
-    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/universal.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="notice.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,36 +18,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <div class="header__inner">
-          <h1 class="logo">
-            <a href="../">
-              <img src="../imgs/logo.gif" alt="ぶんせいロゴ" />
-            </a>
-          </h1>
-
-          <nav class="header__nav nav" id="js-nav">
-            <ul class="nav__items nav-items">
-              <li class="nav-items__item">
-                <a href="../">トップ</a>
-              </li>
-              <li class="nav-items__item"><a href="">2024年授業要項</a></li>
-              <li class="nav-items__item"><a href="">年間予定表</a></li>
-              <li class="nav-items__item"><a href="">入試速報</a></li>
-              <li class="nav-items__item">
-                <a href="">大人になったぶんのすけ達</a>
-              </li>
-              <li class="nav-items__item"><a href="">ぶんせい美術館</a></li>
-            </ul>
-          </nav>
-
-          <button class="header__hamburger hamburger" id="js-hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-      </header>
+      <header class="header"></header>
       <main>
         <section class="top-section notice">
           <h1>お知らせ</h1>
@@ -262,7 +233,8 @@
       </main>
       <footer class="footer"></footer>
     </div>
-    <script src="../js/header.js"></script>
-    <script src="../js/scroll.js"></script>
+    <script src="/js/headerLoader.js"></script>
+    <script src="/js/footerLoader.js"></script>
+    <script src="/js/scroll.js"></script>
   </body>
 </html>
