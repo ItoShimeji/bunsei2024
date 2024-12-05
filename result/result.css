@@ -1,0 +1,38 @@
+.container {
+  /* background-color: rgb(253, 200, 209); */
+  background: repeat center/100%
+    url("/imgs/watercolor-paper-texture-composition.jpg");
+}
+
+caption {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+table {
+  margin-bottom: 1rem;
+}
+table:nth-of-type(odd) > caption {
+  background-color: var(--secondary-header1);
+}
+table:nth-of-type(even) > caption {
+  background-color: var(--secondary-header2);
+}
+.school-table th,
+.school-table td {
+  color: var(--black);
+  background-color: var(--white3);
+}
+.school-table tr > td:nth-of-type(1),
+.school-table tr > th:nth-of-type(1) {
+  color: var(--white);
+  background-color: var(--black3);
+  max-width: 4.5rem;
+}
+.school-table tr > td:nth-of-type(3),
+.school-table tr > th:nth-of-type(3) {
+  text-align: center;
+  max-width: 2rem;
+  vertical-align: middle;
+}

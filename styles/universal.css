@@ -1,12 +1,17 @@
 :root {
   --white: #eeeeee;
   --white2: #ccc;
+  --white3: #dcdcdc;
   --black: #262626;
+  --black2: #404040;
+  --black3: #636363;
   --blue: #192a86;
   --blue2: #3d6dbe;
   --blue3: #d2dcea;
   --secondary-header1: #35d232;
+  --secondary-header1-2: #2db62b;
   --secondary-header2: #e062b3;
+  --secondary-header2-2: #ca55a1;
 }
 
 * {
@@ -194,16 +199,28 @@ table {
   margin: 0 0 0.1rem 0;
   width: 100%;
 }
+
+caption,
 table th,
 table td {
   border: 3px solid var(--white);
   background-color: var(--blue3);
   padding: 0.4rem 0.6rem;
 }
+caption,
 table th {
   background-color: var(--blue2);
   color: var(--white);
   text-align: center;
   vertical-align: middle;
+  width: 100%;
+  font-weight: 700;
+}
+
+caption {
+  border-bottom: none;
+}
+
+table th {
   width: 5rem;
 }
