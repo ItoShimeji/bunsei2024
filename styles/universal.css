@@ -67,6 +67,7 @@ h1 {
   text-align: center;
 }
 
+section h2,
 article h2 {
   font-size: 1.5rem;
 
@@ -74,10 +75,11 @@ article h2 {
   padding: 0.6rem 1.5rem 0.6rem 0.6rem;
   margin: 1rem 0 1rem 0;
 }
+section:nth-of-type(odd) > h2,
 article:nth-of-type(odd) > h2 {
   border-left: solid 5px var(--secondary-header1);
 }
-article:nth-of-type(even) > h2 {
+section:nth-of-type(even) > h2 article:nth-of-type(even) > h2 {
   border-left: solid 5px var(--secondary-header2);
 }
 

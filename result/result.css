@@ -4,6 +4,32 @@
     url("/imgs/watercolor-paper-texture-composition.jpg");
 }
 
+.result-heading {
+  background: var(--white);
+  display: block;
+  max-width: 20rem;
+  box-shadow: 0px 0px 0px 5px var(--white);
+  border: dashed 1px var(--black3);
+  margin: 0 auto 3rem auto;
+  padding: 0.4em 0.5em;
+  color: rgb(233, 111, 132);
+}
+
+.school-title {
+  height: auto;
+  margin-bottom: 1.3rem;
+}
+.school-title > .title {
+  font-size: 1.5rem;
+  padding: 0.4rem 1rem 0.4rem 0.6rem;
+  margin: 1rem 0 1rem 0;
+  border-left: solid 5px var(--black3);
+  font-weight: bold;
+}
+.school-title > .abstract {
+  font-weight: bold;
+}
+
 caption {
   color: var(--white);
   font-size: 1.4rem;
