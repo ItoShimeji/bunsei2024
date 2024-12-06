@@ -45,7 +45,7 @@ main {
   }
 }
 
-iframe {
+main iframe {
   width: 100%;
   aspect-ratio: 1/1;
 }
@@ -54,7 +54,7 @@ iframe {
   margin-bottom: 6rem;
 }
 
-article {
+main article {
   margin-bottom: 2rem;
 }
 
@@ -62,29 +62,29 @@ article {
   margin-bottom: 1.5rem;
 }
 
-h1 {
+main h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
 }
 
-section h2,
-article h2 {
+main section h2,
+main article h2 {
   font-size: 1.5rem;
 
   display: inline-block;
   padding: 0.6rem 1.5rem 0.6rem 0.6rem;
   margin: 1rem 0 1rem 0;
 }
-section:nth-of-type(odd) > h2,
-article:nth-of-type(odd) > h2 {
+main section:nth-of-type(odd) > h2,
+main article:nth-of-type(odd) > h2 {
   border-left: solid 5px var(--secondary-header1);
 }
-section:nth-of-type(even) > h2 article:nth-of-type(even) > h2 {
+main section:nth-of-type(even) > h2 article:nth-of-type(even) > h2 {
   border-left: solid 5px var(--secondary-header2);
 }
 
-h3 {
+main h3 {
   display: block;
   color: #e24950;
   font-size: 1.2rem;
@@ -92,20 +92,20 @@ h3 {
   padding-bottom: 0.2rem;
 }
 
-p {
+main p {
   margin-bottom: 0.5rem;
 }
 
-p,
-li,
-table {
+main p,
+main li,
+main table {
   line-height: 1.5rem;
   overflow-wrap: break-word;
   word-break: normal;
 }
 
-ul,
-ol {
+main ul,
+main ol {
   list-style-type: none;
 }
 ul.list-star > li:first-child,
@@ -113,19 +113,19 @@ ul.list-check > li:first-child,
 ol.list-circle > li:first-child {
   margin-top: 0.5rem;
 }
-ul > li {
+main ul > li {
   position: relative;
   padding: 0rem 0.3rem 0.3rem 1.3rem;
 }
-ol > li {
+main ol > li {
   position: relative;
   padding: 0rem 0.3rem 0.3rem 1.6rem;
 }
 ul.list-star > li {
   margin-bottom: 1.3rem;
 }
-ul > li > h3,
-ol > li > h3 {
+main ul > li > h3,
+main ol > li > h3 {
   font-size: 1.1rem;
   color: var(--black);
   /* font-weight: 400; */
@@ -173,18 +173,18 @@ ol.list-circle > li::before {
   left: 0;
 }
 
-a {
+main a {
   color: #2987b3;
   text-decoration: underline;
   font-weight: 700;
   padding: 0 0.1rem;
 }
-a:hover {
+main a:hover {
   text-decoration: none;
   cursor: pointer;
 }
 
-b {
+main b {
   font-weight: 700;
   padding: 0 0.1rem;
 }
