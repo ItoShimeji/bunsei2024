@@ -93,9 +93,6 @@
   color: var(--black);
   text-decoration: none;
   font-size: 0.8rem;
-  /* width: 100%;
-  height: 100%;
-  text-align: center; */
 }
 
 .top-grid-item a::after {
@@ -109,16 +106,3 @@
   border-width: 2px 2px 0 0;
   border-style: solid;
 }
-
-/* .top-grid-course .top-grid-item:nth-of-type(1) {
-  background-color: rgb(223, 223, 125);
-}
-.top-grid-course .top-grid-item:nth-of-type(2) {
-  background-color: rgb(222, 165, 114);
-}
-.top-grid-course .top-grid-item:nth-of-type(3) {
-  background-color: rgb(125, 177, 223);
-}
-.top-grid-course .top-grid-item:nth-of-type(4) {
-  background-color: rgb(151, 223, 125);
-} */

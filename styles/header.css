@@ -7,6 +7,7 @@
   left: 0;
   right: 0;
   z-index: 900;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.15) 0px 3px 6px;
 }
 
 @media screen and (min-width: 960px) {
