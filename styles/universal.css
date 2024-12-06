@@ -175,26 +175,24 @@ ol.list-circle > li::before {
 
 main a {
   color: #2987b3;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 700;
   padding: 0 0.1rem;
+  border-bottom: #2987b3 2px solid;
+  transition: border-bottom-color 100ms;
 }
 main a:hover {
-  text-decoration: none;
+  border-color: #2987b300;
   cursor: pointer;
+}
+main li > a {
+  border-bottom: none;
 }
 
 main b {
   font-weight: 700;
   padding: 0 0.1rem;
 }
-/* .primary {
-  display: block;
-  color: #e24950;
-  font-size: 1.2rem;
-  font-weight: 700;
-  padding-bottom: 0.2rem;
-} */
 
 table {
   table-layout: fixed;
