@@ -49,6 +49,16 @@
 
 .logo {
   z-index: 999;
+  width: auto;
+  height: 100%;
+}
+.logo a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 8rem;
 }
 
 /* ヘッダーのナビ部分 */

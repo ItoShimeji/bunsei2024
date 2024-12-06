@@ -5,7 +5,7 @@
   --black: #262626;
   --black2: #404040;
   --black3: #636363;
-  --blue: #192a86;
+  --blue: #1d2088;
   --blue2: #3d6dbe;
   --blue3: #d2dcea;
   --secondary-header1: #35d232;
@@ -26,7 +26,8 @@ body {
   background-color: var(--white);
   color: var(--black);
 
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Meiryo", "Hiragino Sans", "Arial", sans-serif;
+  /* "Noto Sans JP" */
   word-break: break-word;
 }
 

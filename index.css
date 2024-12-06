@@ -10,8 +10,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  /* margin-left: 2rem; */
 }
 
 .title {
@@ -51,9 +49,6 @@
 .links {
   list-style: none;
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 
 .links li {

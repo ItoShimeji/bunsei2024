@@ -1,7 +1,5 @@
 .container {
-  /* background-color: rgb(253, 200, 209); */
-  background: repeat center/100%
-    url("/imgs/watercolor-paper-texture-composition.jpg");
+  background: repeat center/100% url("/images/sakura-background.webp");
 }
 
 .result-heading {
@@ -9,6 +7,7 @@
   display: block;
   max-width: 20rem;
   box-shadow: 0px 0px 0px 5px var(--white);
+  border-radius: 4px;
   border: dashed 1px var(--black3);
   margin: 0 auto 3rem auto;
   padding: 0.4em 0.5em;
@@ -17,34 +16,33 @@
 
 .school-title {
   height: auto;
-  margin-bottom: 1.3rem;
+  margin: 3rem 0 1.3rem 0;
 }
 .school-title > .title {
   font-size: 1.5rem;
-  padding: 0.4rem 1rem 0.4rem 0.6rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
   margin: 1rem 0 1rem 0;
-  border-left: solid 5px var(--black3);
   font-weight: bold;
 }
-.school-title > .abstract {
-  font-weight: bold;
+.school:nth-of-type(odd) .school-title > .title {
+  border-left: solid 5px var(--secondary-header1);
+}
+.school:nth-of-type(even) .school-title > .title {
+  border-left: solid 5px var(--secondary-header2);
 }
 
 caption {
+  padding: 0.6rem;
   color: var(--white);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   vertical-align: middle;
+  background-color: var(--blue2);
 }
 table {
   margin-bottom: 1rem;
 }
-table:nth-of-type(odd) > caption {
-  background-color: var(--secondary-header1);
-}
-table:nth-of-type(even) > caption {
-  background-color: var(--secondary-header2);
-}
+
 .school-table th,
 .school-table td {
   color: var(--black);
@@ -61,4 +59,8 @@ table:nth-of-type(even) > caption {
   text-align: center;
   max-width: 2rem;
   vertical-align: middle;
+}
+
+#attribution-sakura {
+  text-align: right;
 }
