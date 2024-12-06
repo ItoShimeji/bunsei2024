@@ -6,6 +6,13 @@
   padding: 2rem 1rem 2rem 1rem;
 }
 
+.footer p,
+.footer li {
+  line-height: 1.5rem;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
 @media screen and (min-width: 960px) {
   .header {
     height: 12rem;
