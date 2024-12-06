@@ -13,8 +13,7 @@
 }
 
 .title {
-  font-size: 4rem;
-  color: var(--blue);
+  width: 16rem;
   text-align: left;
 }
 
