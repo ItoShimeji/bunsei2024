@@ -120,6 +120,7 @@
   display: block;
   text-align: center;
   font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 3rem;
 }
 
@@ -197,4 +198,17 @@
 .hamburger.active span:nth-child(3) {
   top: -13px;
   transform: rotate(-45deg);
+}
+
+.page-transition::after {
+  content: "";
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 0.5em;
+  background-image: url("/images/page-transition.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0.1rem;
 }
