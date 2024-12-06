@@ -13,12 +13,6 @@
   word-break: normal;
 }
 
-@media screen and (min-width: 960px) {
-  .header {
-    height: 12rem;
-  }
-}
-
 .footer-title {
   margin-bottom: 2rem;
 }
