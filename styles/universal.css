@@ -86,13 +86,13 @@ main article:nth-of-type(even) > h2 {
   border-left: solid 5px var(--secondary-header2);
 }
 
-main h3 {
+/* main h3 {
   display: block;
   color: #e24950;
   font-size: 1.2rem;
   font-weight: 700;
   padding-bottom: 0.2rem;
-}
+} */
 
 main p {
   margin-bottom: 0.5rem;
