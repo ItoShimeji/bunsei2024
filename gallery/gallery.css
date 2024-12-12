@@ -1,6 +1,5 @@
 .container {
-  background: repeat center/100%
-    url("/images/nordwood-themes-R53t-Tg6J4c-unsplash.jpg");
+  background: repeat center/100% url("/images/whitewall-background.webp");
   z-index: -10000;
 }
 

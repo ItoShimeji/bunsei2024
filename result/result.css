@@ -1,5 +1,6 @@
 .container {
   background: repeat center/100% url("/images/sakura-background.webp");
+  background-position: 0 -5rem;
 }
 
 .result-heading {
