@@ -1,4 +1,5 @@
 :root {
+  --transparent: #eeeeee00;
   --white: #eeeeee;
   --white2: #ccc;
   --white3: #dcdcdc;
@@ -48,7 +49,7 @@ main iframe {
   aspect-ratio: 1/1;
 }
 
-.top-section {
+.main-section {
   margin-bottom: 6rem;
 }
 
@@ -69,18 +70,19 @@ main h1 {
   border-radius: 10%;
 }
 
-main section h2,
+.main-section h2,
 main article h2 {
   font-size: 1.5rem;
   display: inline-block;
   padding: 0.6rem 1.5rem 0.6rem 0.6rem;
   margin: 1rem 0 1rem 0;
 }
-main section:nth-of-type(odd) > h2,
+.main-section:nth-of-type(odd) > h2,
 main article:nth-of-type(odd) > h2 {
   border-left: solid 5px var(--secondary-header1);
 }
-main section:nth-of-type(even) > h2 article:nth-of-type(even) > h2 {
+.main-section:nth-of-type(even) > h2,
+main article:nth-of-type(even) > h2 {
   border-left: solid 5px var(--secondary-header2);
 }
 
@@ -179,10 +181,10 @@ main a {
   font-weight: 700;
   padding: 0 0.1rem;
   border-bottom: #2987b3 2px solid;
-  transition: border-bottom-color 100ms;
+  transition: border-bottom-color 150ms;
 }
 main a:hover {
-  border-color: #2987b300;
+  border-color: var(--transparent);
   cursor: pointer;
 }
 main li > a {

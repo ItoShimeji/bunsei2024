@@ -72,6 +72,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
   gap: 0.4rem; /* 各アイテム間のスペース */
+  margin-bottom: 3rem;
 }
 
 .top-grid-item {
