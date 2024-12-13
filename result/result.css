@@ -2,6 +2,9 @@
   background: repeat center/100% url("/images/sakura-background.webp");
   background-position: 0 -5rem;
 }
+#result {
+  margin-bottom: 3rem;
+}
 
 .result-heading {
   background: var(--white);
@@ -60,6 +63,54 @@ table {
   text-align: center;
   max-width: 2rem;
   vertical-align: middle;
+}
+
+.result-links h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.result-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
+  gap: 0.4rem; /* 各アイテム間のスペース */
+  margin-bottom: 3rem;
+}
+
+.result-grid-item {
+  background-color: var(--blue);
+  border-radius: 0.4rem;
+  padding: 0rem;
+  height: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.result-now {
+  background-color: var(--black3);
+}
+
+.result-grid-item a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.result-grid-item a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: rotate(45deg) translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
 }
 
 #attribution-sakura {

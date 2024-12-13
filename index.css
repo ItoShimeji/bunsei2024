@@ -68,14 +68,14 @@
   font-weight: 400;
 }
 
-.top-grid-container {
+.result-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
   gap: 0.4rem; /* 各アイテム間のスペース */
   margin-bottom: 3rem;
 }
 
-.top-grid-item {
+.result-grid-item {
   background-color: var(--white2);
   color: #262626;
   border-radius: 0.4rem;
@@ -89,13 +89,13 @@
   cursor: pointer;
 }
 
-.top-grid-item a {
+.result-grid-item a {
   color: var(--black);
   text-decoration: none;
   font-size: 0.8rem;
 }
 
-.top-grid-item a::after {
+.result-grid-item a::after {
   content: "";
   position: absolute;
   top: 50%;
