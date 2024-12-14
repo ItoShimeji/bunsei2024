@@ -1,5 +1,4 @@
-// フッターのテンプレートを読み込む関数
-function loadResult() {
+export default function ResultLoder() {
   const result = document.querySelector("#result");
   fetch("/components/results/result.html") // フッターHTMLファイルを取得
     .then((response) => {
@@ -15,6 +14,3 @@ function loadResult() {
       console.error(error);
     });
 }
-
-// ページが読み込まれたらヘッダーを読み込む
-document.addEventListener("DOMContentLoaded", loadResult);
