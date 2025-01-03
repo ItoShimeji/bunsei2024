@@ -33,7 +33,8 @@ function checkSamePage(event, anchor, linkHost, linkPath) {
 
 function scrollToHash(offset = 80) {
   const hash = window.location.hash;
-  if (hash) {
+
+  if (hash && /^#[a-zA-Z]/.test(hash)) {
     const target = document.querySelector(hash);
     if (target) {
       const targetPosition =
