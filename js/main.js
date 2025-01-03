@@ -1,6 +1,7 @@
 import templateLoder from "./common/templateLoader.js";
 import attachHeaderEvents from "./common/attachHeaderEvents.js";
 import attachPageTransitionEvents from "./common/scroll.js";
+import resultLoader from "./pages/result.js";
 
 //即時実行関数
 (async () => {
@@ -17,7 +18,8 @@ import attachPageTransitionEvents from "./common/scroll.js";
   //個別のページに対する処理
   const currentPath = window.location.pathname;
 
-  if (currentPath.includes("result")) {
-    await templateLoder("/components/results/result.html", "#result");
+  if (currentPath.endsWith("result/")) {
+    await resultLoader();
+    // await templateLoder("/components/results/result.html", "#result");
   }
 })();

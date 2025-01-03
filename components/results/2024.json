@@ -1,8 +1,8 @@
 {
   "junior_high": {
     "overview": {
-      "total_students": 9,
-      "exam_takers": 5
+      "在籍者": 9,
+      "受験者": 5
     },
     "tables": [
       {
@@ -51,9 +51,9 @@
   },
   "high_school": {
     "overview": {
-      "total_students": 12,
-      "exam_takers": 9,
-      "advancers": 3
+      "在籍者": 12,
+      "受験者": 9,
+      "進学": 3
     },
     "tables": [
       {
@@ -119,8 +119,8 @@
   },
   "university": {
     "overview": {
-      "total_students": 6,
-      "exam_takers": 6
+      "在籍者": 6,
+      "受験者": 6
     },
     "tables": [
       {
