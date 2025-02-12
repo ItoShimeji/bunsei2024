@@ -1,0 +1,222 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 8,
+        "exam_takers": 5,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": [
+            {
+              "name": "東京大学教育学部附属中等教育学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            { "name": "大宮開成中学校", "course": "", "students": 1 },
+            {
+              "name": "京華中学校",
+              "course": "特別選抜コース",
+              "students": 1
+            },
+            {
+              "name": "京華女子中学校",
+              "course": "特待３",
+              "students": 2
+            },
+            {
+              "name": "京華女子中学校",
+              "course": "特待２",
+              "students": 4
+            },
+            { "name": "成城中学校", "course": "", "students": 1 },
+            {
+              "name": "安田学園中学校",
+              "course": "先進コース",
+              "students": 3
+            }
+          ]
+        },
+        {
+          "title": "私立中学進学",
+          "data": [
+            {
+              "name": "日本女子大学附属中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 14,
+        "exam_takers": 14,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            { "name": "飛鳥高等学校", "course": "", "students": 1 },
+            { "name": "国際高等学校", "course": "", "students": 1 },
+            { "name": "高島高等学校", "course": "", "students": 1 },
+            {
+              "name": "農産高等学校",
+              "course": "園芸デザイン科",
+              "students": 1
+            },
+            { "name": "白鴎高等学校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "岩倉高等学校",
+              "course": "運輸科",
+              "students": 1
+            },
+            {
+              "name": "京華高等高校",
+              "course": "進学コース",
+              "students": 1
+            },
+            {
+              "name": "国士館高等学校",
+              "course": "進学クラス",
+              "students": 1
+            },
+            {
+              "name": "十文字高等学校",
+              "course": "進学コース",
+              "students": 1
+            },
+            {
+              "name": "淑徳巣鴨高等学校",
+              "course": "選抜コース",
+              "students": 1
+            },
+            {
+              "name": "昭和第一高等学校",
+              "course": "進学コース",
+              "students": 1
+            },
+            {
+              "name": "昭和鉄道高等学校",
+              "course": "鉄道科",
+              "students": 1
+            },
+            {
+              "name": "成立高等学校",
+              "course": "特進コース",
+              "students": 1
+            },
+            {
+              "name": "貞静学園高等学校",
+              "course": "総合進学コース",
+              "students": 1
+            },
+            {
+              "name": "東海大学付属高輪台高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東洋女子高等学校",
+              "course": "総合進学コース",
+              "students": 1
+            },
+            {
+              "name": "日本工業大学駒場高等学校",
+              "course": "普通科 文理未来コース",
+              "students": 1
+            },
+            {
+              "name": "広尾学園小石川高等高校",
+              "course": "インターナショナルSGコース",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 7,
+        "exam_takers": 6,
+        "advancers": 1
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": []
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "芝浦工業大学",
+              "course": "システム理工学部 生命科学科",
+              "students": 1
+            },
+            {
+              "name": "聖徳大学",
+              "course": "看護学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "中央大学",
+              "course": "理工学部 電気電子情報通信工学科",
+              "students": 1
+            },
+            {
+              "name": "帝京大学",
+              "course": "薬学部 薬学科",
+              "students": 1
+            },
+            {
+              "name": "帝京平成大学",
+              "course": "薬学部 薬学科",
+              "students": 1
+            },
+            {
+              "name": "東京有明医療大学",
+              "course": "看護学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "二松学舎大学",
+              "course": "文学部 都市文化デザイン学科",
+              "students": 1
+            },
+            {
+              "name": "武蔵野大学",
+              "course": "経営学部 会計ガバナンス学科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

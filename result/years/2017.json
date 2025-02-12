@@ -1,0 +1,295 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 4,
+        "exam_takers": 3,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            {
+              "name": "跡見学園女子中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "浦和実業学園中学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "埼玉平成中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "淑徳巣鴨中学校",
+              "course": "特進コース",
+              "students": 1
+            },
+            {
+              "name": "城西大学附属城西中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東京家政大学附属女子中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 22,
+        "exam_takers": 19,
+        "advancers": 3
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            {
+              "name": "青井高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "上野高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "王子総合高等学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "大泉高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "大山高校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "豊島高等学校",
+              "course": "",
+              "students": 2
+            }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "郁文館高等学校",
+              "course": "特進クラス",
+              "students": 1
+            },
+            {
+              "name": "郁文館高等学校",
+              "course": "進学クラス",
+              "students": 1
+            },
+            {
+              "name": "京華商業高等学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "郡山女子大学付属高等学校",
+              "course": "普通科",
+              "students": 1
+            },
+            {
+              "name": "淑徳巣鴨高等学校",
+              "course": "選抜コース",
+              "students": 1
+            },
+            {
+              "name": "成立学園高等学校",
+              "course": "スーパー特進コース",
+              "students": 1
+            },
+            {
+              "name": "貞静学園高等学校",
+              "course": "幼児教育・保育系進学コース",
+              "students": 1
+            },
+            {
+              "name": "天理高等学校",
+              "course": "第一部 Ⅰ類",
+              "students": 1
+            },
+            {
+              "name": "天理高等学校",
+              "course": "第一部 Ⅱ類",
+              "students": 1
+            },
+            {
+              "name": "東京成徳大学高等学校",
+              "course": "進学選抜コース",
+              "students": 1
+            },
+            {
+              "name": "豊島学院高等学校",
+              "course": "選抜進学類型",
+              "students": 1
+            },
+            {
+              "name": "豊島学院高等学校",
+              "course": "普通進学類型",
+              "students": 1
+            },
+            {
+              "name": "日本工業大学駒場高等学校",
+              "course": "創造工学科",
+              "students": 1
+            },
+            {
+              "name": "堀越高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "流通経済大学付属柏高等学校",
+              "course": "普通科Ⅰ類",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": [
+            {
+              "name": "巣鴨高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "成城高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "獨協高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 6,
+        "exam_takers": 6,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "跡見学園女子大学",
+              "course": "マネジメント学部 生活環境マネジメント学科",
+              "students": 1
+            },
+            {
+              "name": "学習院女子大学",
+              "course": "国際文化交流学部 日本文化学科",
+              "students": 1
+            },
+            {
+              "name": "実践女子大学",
+              "course": "人間社会学部 現代社会学科",
+              "students": 1
+            },
+            {
+              "name": "成蹊大学",
+              "course": "文学部 現代社会学科",
+              "students": 1
+            },
+            {
+              "name": "大正大学",
+              "course": "表現学部 表現学科 出版編集コース",
+              "students": 1
+            },
+            {
+              "name": "拓殖大学",
+              "course": "工学部 電子システム工学科",
+              "students": 1
+            },
+            {
+              "name": "東京工科大学",
+              "course": "工学部 電気電子工学科",
+              "students": 1
+            },
+            {
+              "name": "東京電機大学",
+              "course": "理工学部 建築・都市環境学系",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "社会学部 メディアコミュニケーション学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "理工学部 都市環境デザイン学科",
+              "students": 1
+            },
+            {
+              "name": "東洋学園大学",
+              "course": "現代経営学部 現代経営学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "生産工学部 環境安全工学科",
+              "students": 1
+            },
+            {
+              "name": "法政大学",
+              "course": "スポーツ健康学部 スポーツ健康学科",
+              "students": 1
+            },
+            {
+              "name": "早稲田大学",
+              "course": "スポーツ科学部 スポーツ科学科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

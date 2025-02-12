@@ -1,0 +1,254 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            { "name": "足立学園", "course": "", "students": 1 },
+            { "name": "大妻中野中学", "course": "", "students": 1 },
+            { "name": "共立女子中学", "course": "", "students": 3 },
+            { "name": "京北中学", "course": "", "students": 1 },
+            { "name": "埼玉栄中学", "course": "", "students": 1 },
+            { "name": "栄東中学", "course": "", "students": 4 },
+            { "name": "十文字中学", "course": "", "students": 4 },
+            { "name": "淑徳中学", "course": "", "students": 2 },
+            { "name": "成城中学", "course": "", "students": 1 },
+            { "name": "東京家政学院中学", "course": "", "students": 1 },
+            { "name": "東京家政大附属中", "course": "", "students": 3 },
+            { "name": "東京女学館中学", "course": "", "students": 1 },
+            { "name": "獨協中学", "course": "", "students": 1 },
+            { "name": "星野学園中学", "course": "", "students": 2 },
+            { "name": "山脇学園中学", "course": "", "students": 1 },
+            { "name": "和洋国府台女子中学", "course": "", "students": 3 }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": [
+            { "name": "東京学芸大附属竹早中学校", "course": "", "students": 2 },
+            { "name": "お茶の水女子大附属中学校", "course": "", "students": 1 },
+            { "name": "女子聖学院中学校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            { "name": "日比谷高校", "course": "", "students": 1 },
+            { "name": "戸山高校", "course": "", "students": 1 },
+            { "name": "小石川高校", "course": "", "students": 1 },
+            { "name": "白鴎高校（理科）", "course": "", "students": 1 },
+            { "name": "竹早高校", "course": "", "students": 1 },
+            { "name": "新宿高校", "course": "", "students": 1 },
+            { "name": "九段高校（語学人文）", "course": "", "students": 1 },
+            { "name": "上野高校", "course": "", "students": 1 },
+            { "name": "北園高校", "course": "", "students": 1 },
+            { "name": "豊島高校", "course": "", "students": 1 },
+            { "name": "高島高校", "course": "", "students": 1 },
+            { "name": "新宿山吹", "course": "", "students": 1 },
+            { "name": "竹台高校", "course": "", "students": 2 },
+            { "name": "大山高校", "course": "", "students": 1 },
+            { "name": "足立新田高校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            { "name": "足立高校（文理）", "course": "", "students": 1 },
+            { "name": "江戸川女子高校", "course": "", "students": 1 },
+            { "name": "神田女学園高校", "course": "", "students": 1 },
+            { "name": "関東国際高校", "course": "", "students": 2 },
+            { "name": "京北高校", "course": "", "students": 1 },
+            { "name": "桜丘高校（進学）", "course": "", "students": 3 },
+            { "name": "桜丘高校（特進）", "course": "", "students": 2 },
+            { "name": "淑徳高校", "course": "進学", "students": 1 },
+            { "name": "淑徳高校（特進英文類型）", "course": "", "students": 1 },
+            { "name": "淑徳高校（英文類型）", "course": "", "students": 1 },
+            { "name": "淑徳学園高校", "course": "", "students": 1 },
+            {
+              "name": "淑徳巣鴨高校（選抜特進理科）",
+              "course": "",
+              "students": 1
+            },
+            { "name": "淑徳巣鴨高校（特進理科）", "course": "", "students": 1 },
+            { "name": "淑徳巣鴨高校（文理）", "course": "", "students": 3 },
+            { "name": "城西大附属城西高校", "course": "", "students": 1 },
+            { "name": "城北高校", "course": "", "students": 1 },
+            { "name": "城北埼玉高校（特進）", "course": "", "students": 1 },
+            { "name": "成城高校", "course": "", "students": 2 },
+            { "name": "正則学園高校", "course": "", "students": 1 },
+            { "name": "中央大学附属高校", "course": "", "students": 1 },
+            {
+              "name": "東京聖徳大学高校（Ａ特待）",
+              "course": "",
+              "students": 2
+            },
+            { "name": "豊島学院", "course": "総合進学理科", "students": 1 },
+            { "name": "日大豊山高校", "course": "", "students": 2 },
+            { "name": "日大豊山女子高校", "course": "", "students": 1 },
+            { "name": "武南高校", "course": "", "students": 1 },
+            { "name": "豊南高校", "course": "", "students": 1 },
+            { "name": "明治学院高校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": [
+            { "name": "立教女学院高等学校", "course": "", "students": 1 },
+            { "name": "淑徳高校", "course": "", "students": 1 },
+            { "name": "日本大学豊山高等学校", "course": "", "students": 1 },
+            { "name": "独協高校", "course": "", "students": 1 },
+            { "name": "十文字高等学校", "course": "", "students": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": [
+            {
+              "name": "千葉大学",
+              "course": "工学部共生応用化学学科",
+              "students": 1
+            },
+            {
+              "name": "東京都立科学技術大学",
+              "course": "工学部",
+              "students": 1
+            },
+            { "name": "豪州国立グリフィス大学", "course": "", "students": 1 },
+            {
+              "name": "ゴールドーコースト校",
+              "course": "経済学部",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "青山学院大学",
+              "course": "経営学部経営学科",
+              "students": 1
+            },
+            {
+              "name": "青山学院大学",
+              "course": "経済学部経済学科",
+              "students": 1
+            },
+            { "name": "桜美林大学", "course": "経営政策学部", "students": 1 },
+            {
+              "name": "関西大学",
+              "course": "工学部システムマネジメント工学科",
+              "students": 1
+            },
+            {
+              "name": "国士舘大学",
+              "course": "体育学部スポーツ医科",
+              "students": 1
+            },
+            { "name": "駒澤大学", "course": "経済学部", "students": 1 },
+            { "name": "駒澤大学", "course": "法学部", "students": 2 },
+            { "name": "芝浦工業大学", "course": "電子工学", "students": 1 },
+            { "name": "白百合女子大学", "course": "児童文学", "students": 1 },
+            { "name": "専修大学", "course": "商学部", "students": 1 },
+            { "name": "多摩大学", "course": "経営情報学部", "students": 1 },
+            { "name": "中央大学", "course": "商学部", "students": 1 },
+            { "name": "中央大学", "course": "理工学部", "students": 1 },
+            { "name": "帝京大学", "course": "経済学部", "students": 1 },
+            { "name": "帝京平成大学", "course": "薬学科", "students": 1 },
+            { "name": "東京歯科大学", "course": "歯学部", "students": 1 },
+            {
+              "name": "東京理科大学",
+              "course": "理学部物理学科",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "理工学部物理学科",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "理工学部経営工学科",
+              "students": 1
+            },
+            {
+              "name": "東京経済大学",
+              "course": "経済学部経営学科",
+              "students": 1
+            },
+            { "name": "東洋大学", "course": "生産工学部", "students": 1 },
+            { "name": "獨協大学", "course": "経済学部経営学科", "students": 1 },
+            { "name": "大東文化大学", "course": "国際関係", "students": 1 },
+            { "name": "日本大学", "course": "生産工学部", "students": 1 },
+            { "name": "日本大学", "course": "理工学部", "students": 1 },
+            { "name": "白百合大学", "course": "発達科学部", "students": 1 },
+            { "name": "平成国際大学", "course": "法学部", "students": 1 },
+            { "name": "明治学院大学", "course": "経済", "students": 1 },
+            { "name": "武蔵大学", "course": "経済", "students": 1 },
+            { "name": "早稲田大学", "course": "人間科学部", "students": 1 }
+          ]
+        },
+        {
+          "title": "短期大学",
+          "data": [
+            { "name": "青山学院短期大学（英文）", "course": "", "students": 1 },
+            {
+              "name": "専修大学北海道短期大学（商科）",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "専門学校",
+          "data": [
+            {
+              "name": "大原簿記学校",
+              "course": "税理士コース４年",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

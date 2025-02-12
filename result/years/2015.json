@@ -1,0 +1,469 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 4,
+        "exam_takers": 2,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            {
+              "name": "大宮開成中学校",
+              "course": "特別進学",
+              "students": 1
+            },
+            {
+              "name": "駒込学園中学校",
+              "course": "アドバンス",
+              "students": 1
+            },
+            {
+              "name": "桜丘中学校",
+              "course": "Ｂ特待",
+              "students": 1
+            },
+            {
+              "name": "東京成徳大学中学校",
+              "course": "Ｂ特待",
+              "students": 1
+            },
+            {
+              "name": "獨協中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 18,
+        "exam_takers": 17,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            {
+              "name": "板橋有徳高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "北園高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "国際高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "産業技術高等専門学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "高島高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "千早高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "文京高等学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "武蔵丘高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "神田女学園高等学校",
+              "course": "Ｂ特待",
+              "students": 1
+            },
+            {
+              "name": "関東国際高等学校",
+              "course": "外国語ベトナム語学科",
+              "students": 1
+            },
+            {
+              "name": "関東国際高等学校",
+              "course": "普通科理系",
+              "students": 2
+            },
+            {
+              "name": "共栄学園高等学校",
+              "course": "",
+              "students": 3
+            },
+            {
+              "name": "京華高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "桜丘高等学校",
+              "course": "特進",
+              "students": 1
+            },
+            {
+              "name": "桜丘高等学校",
+              "course": "Ｄ特待",
+              "students": 1
+            },
+            {
+              "name": "貞静学園高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "天理高等学校",
+              "course": "Ⅱ類",
+              "students": 1
+            },
+            {
+              "name": "東亜学園高等学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "豊島学院高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "日本大学櫻丘高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "保善高等学校",
+              "course": "進学",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": [
+            {
+              "name": "東京女学館高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 18,
+        "exam_takers": 18
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": [
+            {
+              "name": "首都大学東京",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "電気通信大学",
+              "course": "情報理工学部 総合情報学科",
+              "students": 1
+            },
+            {
+              "name": "東京大学",
+              "course": "文科Ⅲ類",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "海外大学",
+          "data": [
+            {
+              "name": "グリフィス大学",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "青山学院大学",
+              "course": "文学部 英米文学科",
+              "students": 1
+            },
+            {
+              "name": "亜細亜大学",
+              "course": "経済学部 経済学科",
+              "students": 1
+            },
+            {
+              "name": "亜細亜大学",
+              "course": "経営学部 経営学科",
+              "students": 1
+            },
+            {
+              "name": "跡見学園女子大学",
+              "course": "文学部 人文学科",
+              "students": 1
+            },
+            {
+              "name": "学習院大学",
+              "course": "法学部",
+              "students": 1
+            },
+            {
+              "name": "神奈川大学",
+              "course": "工学部 建築学科",
+              "students": 1
+            },
+            {
+              "name": "共立女子大学",
+              "course": "看護学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "杏林大学",
+              "course": "保健学部 看護学養護学専攻",
+              "students": 1
+            },
+            {
+              "name": "恵泉女学園大学",
+              "course": "人間社会学部 国際経済学科",
+              "students": 1
+            },
+            {
+              "name": "慶應義塾大学",
+              "course": "環境情報学部",
+              "students": 1
+            },
+            {
+              "name": "慶應義塾大学",
+              "course": "総合政策学部",
+              "students": 1
+            },
+            {
+              "name": "恵泉女学園大学",
+              "course": "人間社会学部 現代社会学科",
+              "students": 1
+            },
+            {
+              "name": "国士舘大学",
+              "course": "法学部 法律学科",
+              "students": 1
+            },
+            {
+              "name": "芝浦工業大学",
+              "course": "工学部 建築工学科",
+              "students": 1
+            },
+            {
+              "name": "芝浦工業大学",
+              "course": "工学部 情報工学科",
+              "students": 2
+            },
+            {
+              "name": "上智大学",
+              "course": "理工学部 情報理工学科",
+              "students": 1
+            },
+            {
+              "name": "成城大学",
+              "course": "法学部 法律学科",
+              "students": 1
+            },
+            {
+              "name": "中央大学",
+              "course": "文学部 人文社会学科",
+              "students": 1
+            },
+            {
+              "name": "中央大学",
+              "course": "理工学部 人間総合理工学科",
+              "students": 1
+            },
+            {
+              "name": "東京医療保健大学",
+              "course": "医療保健学部 医療栄養学科",
+              "students": 1
+            },
+            {
+              "name": "東京医療保健大学",
+              "course": "医療保健学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "東京女子医科大学",
+              "course": "看護学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "東京電機大学",
+              "course": "工学部 情報通信工学科",
+              "students": 1
+            },
+            {
+              "name": "東京都市大学",
+              "course": "知識工学部 情報科学科",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "基礎工学部",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "工学部 建築学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "国際地域学部 国際観光学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "文学部 英語コミュニケーション学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "法学部",
+              "students": 2
+            },
+            {
+              "name": "東洋大学",
+              "course": "理工学部 建築学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "食環境科学部 食環境科学科 スポーツ・食品機能専攻",
+              "students": 1
+            },
+            {
+              "name": "東洋英和女学院大学",
+              "course": "人間科学部 保育こども学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "工学部 情報工学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "法学部 法律学科",
+              "students": 1
+            },
+            {
+              "name": "文京学院大学",
+              "course": "保健医療学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "法政大学",
+              "course": "経済学部",
+              "students": 1
+            },
+            {
+              "name": "法政大学",
+              "course": "グローバル 教養学部",
+              "students": 2
+            },
+            {
+              "name": "法政大学",
+              "course": "国際文化学部 国際文化学科",
+              "students": 1
+            },
+            {
+              "name": "明治大学",
+              "course": "国際日本学部",
+              "students": 1
+            },
+            {
+              "name": "明治大学",
+              "course": "理工学部 機械情報工学科",
+              "students": 1
+            },
+            {
+              "name": "明治大学",
+              "course": "政治経済学部 経済学科",
+              "students": 1
+            },
+            {
+              "name": "立教大学",
+              "course": "経済学部",
+              "students": 1
+            },
+            {
+              "name": "立教大学",
+              "course": "法学部",
+              "students": 1
+            },
+            {
+              "name": "立命館大学",
+              "course": "映像学部 映像学科",
+              "students": 1
+            },
+            {
+              "name": "立命館大学",
+              "course": "産業社会学部",
+              "students": 1
+            },
+            {
+              "name": "早稲田大学",
+              "course": "教育学部 英語英米文学科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

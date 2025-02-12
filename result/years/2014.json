@@ -1,0 +1,407 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 10,
+        "exam_takers": 4,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            {
+              "name": "大宮開成中学校",
+              "course": "英数特科",
+              "students": 1
+            },
+            {
+              "name": "大宮開成中学校",
+              "course": "特別進学",
+              "students": 1
+            },
+            {
+              "name": "十文字中学校",
+              "course": "S選抜",
+              "students": 1
+            },
+            {
+              "name": "成城中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東京家政大学附属女子中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "獨協中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "文京学院大学女子中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "三輪田学園中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 20,
+        "exam_takers": 20,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            {
+              "name": "足立新田高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "板橋高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "北園高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "産業技術高等専門学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "高島高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "豊島高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "戸山高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "野津田高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "大森学園高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "関東国際高等学校",
+              "course": "理系",
+              "students": 2
+            },
+            {
+              "name": "共栄学園高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "桜丘高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "桜丘高等学校",
+              "course": "特進",
+              "students": 1
+            },
+            {
+              "name": "桜丘高等学校",
+              "course": "C特待",
+              "students": 1
+            },
+            {
+              "name": "佐野日本大学高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "芝浦工業大学高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "自由が丘学園高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "淑徳高等学校",
+              "course": "特進選抜ｺｰｽ",
+              "students": 1
+            },
+            {
+              "name": "帝京高等学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "東京立正高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "豊島学院高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "豊島学院高等高校",
+              "course": "選抜",
+              "students": 1
+            },
+            {
+              "name": "日本大学第一高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "日本大学鶴ケ丘高等学校",
+              "course": "特進コース",
+              "students": 2
+            },
+            {
+              "name": "日本大学豊山高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "日出高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "堀越高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 18,
+        "exam_takers": 18
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": []
+        },
+        {
+          "title": "海外大学",
+          "data": [
+            {
+              "name": "梨花女子大学",
+              "course": "造形美術大学 衣類学専攻",
+              "students": 1
+            },
+            {
+              "name": "ミズーリ大学",
+              "course": "Aviation Operation",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "学習院大学",
+              "course": "経済学部 経営学科",
+              "students": 1
+            },
+            {
+              "name": "学習院大学",
+              "course": "経済学部 経済学科",
+              "students": 1
+            },
+            {
+              "name": "共栄大学",
+              "course": "教育学部 A特待",
+              "students": 1
+            },
+            {
+              "name": "成蹊大学",
+              "course": "文学部 現代社会学科",
+              "students": 1
+            },
+            {
+              "name": "清泉女子大学",
+              "course": "文学部 地球市民学科",
+              "students": 1
+            },
+            {
+              "name": "専修大学",
+              "course": "文学部 人文ジャーナリズム学科",
+              "students": 1
+            },
+            {
+              "name": "創価大学",
+              "course": "教育学部 児童教育学科",
+              "students": 1
+            },
+            {
+              "name": "大正大学",
+              "course": "表現学部 表現文化学科",
+              "students": 1
+            },
+            {
+              "name": "大東文化大学",
+              "course": "文学部 教育学科",
+              "students": 1
+            },
+            {
+              "name": "東京聖栄大学",
+              "course": "健康栄養学部 食品学科",
+              "students": 2
+            },
+            {
+              "name": "東京電機大学",
+              "course": "工学部 情報通信工学科",
+              "students": 1
+            },
+            {
+              "name": "東京都市大学",
+              "course": "知識工学部 情報科学科",
+              "students": 1
+            },
+            {
+              "name": "東京農業大学",
+              "course": "農学部 畜産学科",
+              "students": 1
+            },
+            {
+              "name": "東洋英和女学院大学",
+              "course": "人間科学部 人間科学科",
+              "students": 2
+            },
+            {
+              "name": "東洋大学",
+              "course": "食環境科学部 食環境科学科スポーツ・食品機能専攻",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "理工学部 機械工学科",
+              "students": 1
+            },
+            {
+              "name": "獨協大学",
+              "course": "法学部 法学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "医学部 医学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "芸術学部 演劇学科",
+              "students": 1
+            },
+            {
+              "name": "法政大学",
+              "course": "経済学部 経済学科",
+              "students": 1
+            },
+            {
+              "name": "武蔵野大学",
+              "course": "人間科学部 人間科学科",
+              "students": 1
+            },
+            {
+              "name": "明治大学",
+              "course": "法学部 法律学科",
+              "students": 1
+            },
+            {
+              "name": "明治学院大学",
+              "course": "法学部 法学科",
+              "students": 1
+            },
+            {
+              "name": "明治薬科大学",
+              "course": "薬学部 薬学科",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "短期大学",
+          "data": [
+            {
+              "name": "戸板女子短期大学",
+              "course": "服飾芸術学科",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "専門学校",
+          "data": [
+            {
+              "name": "華学園栄養専門学校",
+              "course": "管理栄養士科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "私立中学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "国立中学進学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "私立中学進学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "私立高校",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "私立高校進学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "私立大学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "海外大学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "短期大学",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        },
+        {
+          "title": "専門学校",
+          "data": [{ "name": "", "course": "", "students": 1 }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 5,
+        "exam_takers": 1,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            {
+              "name": "浦和実業学園中学校",
+              "course": "",
+              "students": 3
+            },
+            {
+              "name": "淑徳巣鴨中学校",
+              "course": "スーパー選抜コース",
+              "students": 2
+            },
+            {
+              "name": "獨協中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 15,
+        "exam_takers": 13,
+        "advancers": 2
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            {
+              "name": "板橋高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "鷺宮高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "高島高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "竹台高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "京華商業高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "自由ヶ丘学園高等学校",
+              "course": "総合選抜コース",
+              "students": 1
+            },
+            {
+              "name": "帝京高等学校",
+              "course": "進学コース",
+              "students": 1
+            },
+            {
+              "name": "貞静学園高等学校",
+              "course": "総合進学コース",
+              "students": 1
+            },
+            {
+              "name": "東亜学園高等学校",
+              "course": "総合選抜コース",
+              "students": 1
+            },
+            {
+              "name": "東京成徳大学高等学校",
+              "course": "進学コース",
+              "students": 2
+            },
+            {
+              "name": "日本大学櫻丘高等学校",
+              "course": "総合進学コース",
+              "students": 1
+            },
+            {
+              "name": "保善高等学校",
+              "course": "特別進学クラス",
+              "students": 1
+            },
+            {
+              "name": "保善高等学校",
+              "course": "大学進学クラス",
+              "students": 2
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 10,
+        "exam_takers": 9,
+        "advancers": 1
+      },
+      "tables": [
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "大妻女子大学",
+              "course": "社会情報学部 社会情報学科情報デザイン専攻",
+              "students": 1
+            },
+            {
+              "name": "学習院女子大学",
+              "course": "国際文化交流学部 国際コミュニケーション学科",
+              "students": 2
+            },
+            {
+              "name": "国士舘大学",
+              "course": "２１世紀アジア学部 ２１世紀アジア学科",
+              "students": 1
+            },
+            {
+              "name": "駒澤大学",
+              "course": "文学部 心理学科",
+              "students": 1
+            },
+            {
+              "name": "駒澤大学",
+              "course": "文学部 社会学科社会福祉学専攻",
+              "students": 1
+            },
+            {
+              "name": "帝京平成大学",
+              "course": "現代ライフ学部 児童学科",
+              "students": 1
+            },
+            {
+              "name": "東京経済大学",
+              "course": "コミュニケーション学部 コミュニケーション学科",
+              "students": 1
+            },
+            {
+              "name": "東京経済大学",
+              "course": "現代法学部 現代法学科",
+              "students": 1
+            },
+            {
+              "name": "東京女子大学",
+              "course": "国際教養学部 国際英語学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "食環境科学部 フードサイエンス学科",
+              "students": 1
+            },
+            {
+              "name": "獨協大学",
+              "course": "法学部 法学科",
+              "students": 1
+            },
+            {
+              "name": "日本体育大学",
+              "course": "スポーツマネジメント学部 スポーツマネジメント学科",
+              "students": 1
+            },
+            {
+              "name": "日本体育大学",
+              "course": "体育学部 体育学科",
+              "students": 1
+            },
+            {
+              "name": "立教大学",
+              "course": "経営学部 国際経営学科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

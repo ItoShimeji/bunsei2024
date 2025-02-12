@@ -1,0 +1,184 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            { "name": "足立学園", "course": "", "students": 2 },
+            { "name": "跡見", "course": "", "students": 1 },
+            { "name": "京北", "course": "", "students": 1 },
+            { "name": "十文字", "course": "", "students": 1 },
+            { "name": "淑徳", "course": "", "students": 1 },
+            { "name": "聖学院", "course": "", "students": 1 },
+            { "name": "獨協", "course": "", "students": 1 },
+            { "name": "日大豊山", "course": "", "students": 1 },
+            { "name": "日大豊山女子", "course": "", "students": 1 },
+            { "name": "文京女子大附", "course": "", "students": 2 },
+            { "name": "明治学院", "course": "", "students": 1 },
+            { "name": "山脇", "course": "", "students": 1 },
+            { "name": "和洋国府台女子", "course": "", "students": 1 },
+            { "name": "安田学園", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 50,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国立・都立高校",
+          "data": [
+            { "name": "東京工業大学付属高", "course": "", "students": 1 },
+            { "name": "東京大学附属高校", "course": "", "students": 1 },
+            { "name": "都立小石川", "course": "", "students": 3 },
+            { "name": "都立新宿", "course": "", "students": 1 },
+            { "name": "都立上野", "course": "", "students": 1 },
+            { "name": "都立北園", "course": "", "students": 2 },
+            { "name": "都立文京", "course": "", "students": 3 },
+            { "name": "都立忍岡", "course": "", "students": 1 },
+            { "name": "都立板橋", "course": "", "students": 2 },
+            { "name": "都立志村", "course": "", "students": 2 }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            { "name": "郁文館高校", "course": "", "students": 1 },
+            { "name": "関東国際高・英語", "course": "", "students": 2 },
+            { "name": "錦城学園高校", "course": "", "students": 1 },
+            { "name": "京北高校", "course": "", "students": 1 },
+            { "name": "京北商業高校", "course": "", "students": 1 },
+            { "name": "香蘭女学校", "course": "", "students": 1 },
+            { "name": "國學院高校", "course": "", "students": 6 },
+            {
+              "name": "桜丘女子高",
+              "course": "英特",
+              "students": 1
+            },
+            {
+              "name": "桜丘女子高",
+              "course": "文理",
+              "students": 2
+            },
+            { "name": "芝浦工大高校", "course": "", "students": 1 },
+            { "name": "渋谷教育学園渋谷高", "course": "", "students": 1 },
+            { "name": "十文字高校", "course": "", "students": 1 },
+            { "name": "淑徳高校", "course": "", "students": 6 },
+            {
+              "name": "淑徳巣鴨高校",
+              "course": "特進",
+              "students": 1
+            },
+            {
+              "name": "淑徳巣鴨高校",
+              "course": "文理",
+              "students": 4
+            },
+            { "name": "順天高校", "course": "", "students": 2 },
+            { "name": "城北高校", "course": "", "students": 3 },
+            { "name": "城西大附属城西高", "course": "", "students": 1 },
+            { "name": "杉並学院高", "course": "", "students": 1 },
+            { "name": "駿台学園高校", "course": "", "students": 1 },
+            { "name": "成城高校", "course": "", "students": 1 },
+            { "name": "滝野川女子学園高・特進", "course": "", "students": 1 },
+            { "name": "東経短大村田女子高", "course": "", "students": 1 },
+            { "name": "東京家政大附属女子高", "course": "", "students": 3 },
+            { "name": "東京電機大附属高", "course": "", "students": 1 },
+            { "name": "日大二高", "course": "", "students": 1 },
+            { "name": "東京農大一高", "course": "", "students": 1 },
+            { "name": "東洋高校・特進", "course": "", "students": 2 },
+            { "name": "東洋女子高校", "course": "", "students": 3 },
+            { "name": "豊島学院", "course": "", "students": 1 },
+            { "name": "獨協埼玉高校", "course": "", "students": 1 },
+            {
+              "name": "日大桜ヶ丘・豊山・豊山女子",
+              "course": "",
+              "students": 4
+            },
+            { "name": "日工大附属高", "course": "", "students": 2 },
+            { "name": "武南高校", "course": "", "students": 2 },
+            { "name": "富士見丘高校", "course": "", "students": 3 },
+            { "name": "目白学園高・英語", "course": "", "students": 1 },
+            { "name": "武蔵野音大・音楽", "course": "", "students": 1 },
+            { "name": "明治学院高", "course": "", "students": 1 },
+            { "name": "安田学園", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 0,
+        "exam_takers": 2,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": []
+        },
+        {
+          "title": "私立大学",
+          "data": []
+        },
+        {
+          "title": "海外大学",
+          "data": []
+        },
+        {
+          "title": "短期大学",
+          "data": [
+            {
+              "name": "跡見学園短大・英文科",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "専門学校",
+          "data": [
+            {
+              "name": "織田製菓　製パン科",
+              "course": "",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

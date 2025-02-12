@@ -1,0 +1,324 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 14,
+        "exam_takers": 8,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": [
+            {
+              "name": "筑波大学附属中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            {
+              "name": "浦和明の星女子中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "大宮開成中学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "大妻中野中学校",
+              "course": "アドバンスト",
+              "students": 1
+            },
+            {
+              "name": "京華女子中学校",
+              "course": "３年特待",
+              "students": 2
+            },
+            {
+              "name": "吉祥女子中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "栄東中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "実践女子学園中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "十文字中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "淑徳中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "淑徳ＳＣ中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "女子学院中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東京女学館中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "獨協中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 20,
+        "exam_takers": 17,
+        "advancers": 3
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            {
+              "name": "都立王子総合高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "都立小山台高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "都立北園高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "都立高島高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "都立豊島高等学校",
+              "course": "",
+              "students": 3
+            }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "関東国際高等学校",
+              "course": "外国語科 英語",
+              "students": 1
+            },
+            {
+              "name": "関東国際高等学校",
+              "course": "普通科 理系",
+              "students": 1
+            },
+            {
+              "name": "共栄学園高等高校",
+              "course": "特進",
+              "students": 1
+            },
+            {
+              "name": "共栄学園高等高校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "国士舘高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "修徳高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "淑徳ＳＣ高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "正則高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "多摩大目黒高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東亜学園高等学校",
+              "course": "文理ｺｰｽ",
+              "students": 2
+            },
+            {
+              "name": "東京成徳大学高等学校",
+              "course": "特別進学類型",
+              "students": 1
+            },
+            {
+              "name": "豊島学院高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "奈良天理高等学校",
+              "course": "第1部2類（特進）",
+              "students": 1
+            },
+            {
+              "name": "日出高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "保善高等学校",
+              "course": "大学進学クラス",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": [
+            {
+              "name": "東京家政大学附属女子高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "和洋九段女子高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 9,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": []
+        },
+        {
+          "title": "海外大学",
+          "data": []
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "亜細亜大学",
+              "course": "国際関係学部 国際関係学科",
+              "students": 1
+            },
+            {
+              "name": "國學院大学",
+              "course": "文学部 日本文学科",
+              "students": 1
+            },
+            {
+              "name": "埼玉医科大学",
+              "course": "保健医療学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "専修大学",
+              "course": "法学部 政治学科",
+              "students": 1
+            },
+            {
+              "name": "東京電機大学",
+              "course": "理工学部 情報システムデザイン学科",
+              "students": 2
+            },
+            {
+              "name": "東京都市大学",
+              "course": "知識工学部 情報科学科",
+              "students": 1
+            },
+            {
+              "name": "東洋英和女学院",
+              "course": "国際社会学部 国際コミュニケーション学科",
+              "students": 1
+            },
+            {
+              "name": "獨協大学",
+              "course": "法学部 法律学科",
+              "students": 1
+            },
+            {
+              "name": "獨協大学",
+              "course": "国際教養学部 言語文化学科",
+              "students": 1
+            },
+            {
+              "name": "日本工業大学",
+              "course": "工学部 建築学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "法学部 新聞学科",
+              "students": 1
+            },
+            {
+              "name": "法政大学",
+              "course": "情報科学類 ディジタルメディア科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

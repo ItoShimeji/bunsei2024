@@ -1,0 +1,211 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 7,
+        "exam_takers": 5,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            {
+              "name": "浦和実業学園中学校",
+              "course": "Ａ特待",
+              "students": 1
+            },
+            {
+              "name": "大宮開成中学校",
+              "course": "英数特科コース",
+              "students": 1
+            },
+            {
+              "name": "埼玉平成中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "桜丘中学校",
+              "course": "Ｄ特待",
+              "students": 1
+            },
+            {
+              "name": "桜丘中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "修徳中学校",
+              "course": "特進クラス",
+              "students": 1
+            },
+            {
+              "name": "日本大学豊山女子中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 9,
+        "exam_takers": 8,
+        "advancers": 1
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            {
+              "name": "大泉高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "国際高高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "鷺宮高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "戸山高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "京華高等学校",
+              "course": "進学コース",
+              "students": 1
+            },
+            {
+              "name": "自由ヶ丘学園高等学校",
+              "course": "総合進学Ｆコース",
+              "students": 1
+            },
+            {
+              "name": "十文字高等学校",
+              "course": "進学コース",
+              "students": 1
+            },
+            {
+              "name": "淑徳高等高校",
+              "course": "特進選抜コース",
+              "students": 1
+            },
+            {
+              "name": "城北高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "成立学園高等学校",
+              "course": "スーパー特進コース",
+              "students": 1
+            },
+            {
+              "name": "東京家政大学附属女子高等学校",
+              "course": "進学クラス",
+              "students": 1
+            },
+            {
+              "name": "東京成徳大学高等学校",
+              "course": "特別進学コースＳクラス",
+              "students": 1
+            },
+            {
+              "name": "文京学院大学女子高等学校",
+              "course": "国際教養Ａクラス",
+              "students": 1
+            },
+            {
+              "name": "保善高等学校",
+              "course": "大学進学クラス",
+              "students": 1
+            },
+            {
+              "name": "盛岡中央高等学校",
+              "course": "国際Ｒコース",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": [
+            {
+              "name": "十文字高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 5,
+        "exam_takers": 5,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": []
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "共栄大学",
+              "course": "教育学部 教育学科",
+              "students": 1
+            },
+            {
+              "name": "帝京平成大学",
+              "course": "薬学部 薬学科",
+              "students": 1
+            },
+            {
+              "name": "東京国際大学",
+              "course": "国際関係学部 国際メディア学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "文学部 日本文学文化学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "文理学部 社会学科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

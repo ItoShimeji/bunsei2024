@@ -1,0 +1,305 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 5,
+        "exam_takers": 5,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": [
+            {
+              "name": "千代田区立九段中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            {
+              "name": "浦和実業学園中学校",
+              "course": "Ｂ特待",
+              "students": 2
+            },
+            {
+              "name": "大宮開成中学校",
+              "course": "英数特科コース",
+              "students": 3
+            },
+            {
+              "name": "吉祥女子中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "共立女子中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "淑徳与野中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "多摩大学目黒中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東海大学高輪中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東京女学館中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "日本大学豊山中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "富士見中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "普連土学園中学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "三輪田学園中学校",
+              "course": "",
+              "students": 2
+            },
+            {
+              "name": "和洋国府台女子中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 10,
+        "exam_takers": 9,
+        "advancers": 1
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            {
+              "name": "上野高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "小山台高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "竹台高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "向丘高等学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            {
+              "name": "京華高等学校",
+              "course": "Ｓ特進コース",
+              "students": 1
+            },
+            {
+              "name": "京華商業高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "駒澤大学高等学校",
+              "course": "",
+              "students": 1
+            },
+            {
+              "name": "東亜学園高等学校",
+              "course": "総合選抜コース",
+              "students": 2
+            },
+            {
+              "name": "東洋女子高等学校",
+              "course": "総合進学コース",
+              "students": 1
+            },
+            {
+              "name": "日本大学鶴ヶ丘高等学校",
+              "course": "特進コース",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 12,
+        "exam_takers": 10,
+        "advancers": 2
+      },
+      "tables": [
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "亜細亜大学",
+              "course": "経営学部 経営学科",
+              "students": 2
+            },
+            {
+              "name": "大妻女子大学",
+              "course": "社会情報学部 社会情報学科情報デザイン専攻",
+              "students": 1
+            },
+            {
+              "name": "杏林大学",
+              "course": "保健学部 診療放射線技術学科",
+              "students": 2
+            },
+            {
+              "name": "芝浦工業大学",
+              "course": "工学部 電子工学科",
+              "students": 1
+            },
+            {
+              "name": "順天堂大学",
+              "course": "保健医療学部 診療放射線学科",
+              "students": 1
+            },
+            {
+              "name": "成蹊大学",
+              "course": "経済学部 経済経営学科",
+              "students": 1
+            },
+            {
+              "name": "聖徳大学",
+              "course": "看護学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "帝京平成大学",
+              "course": "健康医療スポーツ学部 看護学科",
+              "students": 1
+            },
+            {
+              "name": "東京医療保健大学",
+              "course": "医療保健学部 医療保健学科",
+              "students": 1
+            },
+            {
+              "name": "東京経済大学",
+              "course": "経営学部 経営学科",
+              "students": 1
+            },
+            {
+              "name": "東京成徳大学",
+              "course": "経営学部 経営学科",
+              "students": 1
+            },
+            {
+              "name": "東京都市大学",
+              "course": "工学部 機械システム工学科",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "理学部第一部 物理学科",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "経営学部 経営学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "経営学部 経営学科",
+              "students": 2
+            },
+            {
+              "name": "東洋大学",
+              "course": "経営学部 マーケティング学科",
+              "students": 2
+            },
+            {
+              "name": "日本医療科学大学",
+              "course": "保健医療学部 診療放射線学科",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "専門学校",
+          "data": [
+            {
+              "name": "武蔵野調理師専門学校",
+              "course": "高度調理経営科",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立大学進学",
+          "data": [
+            {
+              "name": "跡見学園女子大学",
+              "course": "心理学部 臨床心理学科",
+              "students": 1
+            },
+            {
+              "name": "日本大学",
+              "course": "藝術学部 文芸学科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

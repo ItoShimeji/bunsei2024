@@ -1,0 +1,181 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 19,
+        "exam_takers": 14,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            { "name": "跡見学園中学校", "course": "", "students": 1 },
+            { "name": "郁文館中学", "course": "", "students": 1 },
+            { "name": "大妻中野中学", "course": "", "students": 1 },
+            { "name": "岡山白陵中学", "course": "", "students": 1 },
+            { "name": "共立女子中学", "course": "", "students": 3 },
+            { "name": "実践女子学園中学校", "course": "", "students": 1 },
+            { "name": "品川女子学院", "course": "", "students": 1 },
+            { "name": "芝中学校", "course": "", "students": 1 },
+            { "name": "十文字中学校", "course": "", "students": 2 },
+            { "name": "淑徳中学校", "course": "", "students": 2 },
+            { "name": "調布中学校", "course": "", "students": 1 },
+            { "name": "土佐塾中学", "course": "", "students": 2 },
+            { "name": "日本大学豊山中学校", "course": "", "students": 1 },
+            { "name": "富士見丘中学校", "course": "", "students": 1 },
+            { "name": "立教女学院中学校", "course": "", "students": 1 },
+            { "name": "和洋九段女子中学校", "course": "", "students": 2 },
+            { "name": "和洋国府台女子中学校", "course": "", "students": 5 }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": [
+            { "name": "東京学芸大附属竹早中学校", "course": "", "students": 2 },
+            { "name": "お茶の水女子大附属中学校", "course": "", "students": 1 },
+            { "name": "女子聖学院中学校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 28,
+        "exam_takers": 25,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            { "name": "戸山高校", "course": "", "students": 1 },
+            { "name": "小石川高校", "course": "", "students": 1 },
+            { "name": "芸術高校", "course": "", "students": 1 },
+            { "name": "文京高校", "course": "", "students": 1 },
+            { "name": "豊島高校", "course": "", "students": 1 },
+            { "name": "竹台高校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            { "name": "足立学園高校", "course": "", "students": 1 },
+            { "name": "関東国際高校（英語）", "course": "", "students": 2 },
+            { "name": "吉祥女子高校（芸術）", "course": "", "students": 2 },
+            { "name": "京北高校", "course": "", "students": 1 },
+            { "name": "國學院", "course": "", "students": 5 },
+            { "name": "桜丘女子高校（英語特進）", "course": "", "students": 2 },
+            { "name": "桜丘女子高校（文理）", "course": "", "students": 3 },
+            { "name": "淑徳高校（α特進）", "course": "", "students": 3 },
+            { "name": "淑徳高校（数理）", "course": "", "students": 1 },
+            { "name": "淑徳巣鴨高校（特進）", "course": "", "students": 1 },
+            { "name": "淑徳巣鴨高校", "course": "", "students": 1 },
+            { "name": "順天高校（特進）", "course": "", "students": 1 },
+            { "name": "城北高校", "course": "", "students": 1 },
+            { "name": "白百合学園高校", "course": "", "students": 1 },
+            { "name": "駿台学園", "course": "", "students": 1 },
+            { "name": "成城高校", "course": "", "students": 2 },
+            { "name": "東京家政大学附属高校", "course": "", "students": 3 },
+            { "name": "東洋女子高校", "course": "", "students": 1 },
+            { "name": "日大櫻丘高校", "course": "", "students": 1 },
+            { "name": "日大鶴ケ丘高校", "course": "", "students": 1 },
+            {
+              "name": "日本工業大学附属東京工業（Ⅰ類･建築）",
+              "course": "",
+              "students": 1
+            },
+            { "name": "日本女子大附属高校", "course": "", "students": 1 },
+            { "name": "日出学園高校", "course": "", "students": 1 },
+            { "name": "朋優学院高校（デザイン）", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": [
+            { "name": "立教女学院高等学校", "course": "", "students": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 15,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国・公立大学",
+          "data": [
+            { "name": "お茶の水女子大", "course": "（文教育）", "students": 1 },
+            { "name": "東京学芸大", "course": "（教育）", "students": 1 },
+            { "name": "高崎経済大学", "course": "（経済）", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            { "name": "跡見学園女子大学", "course": "（文）", "students": 2 },
+            { "name": "大妻女子大学", "course": "(文)", "students": 1 },
+            { "name": "学習院大学", "course": "（文）（法）", "students": 1 },
+            { "name": "成蹊大学", "course": "(法)", "students": 1 },
+            { "name": "専修大学", "course": "(法)", "students": 1 },
+            { "name": "津田塾大学", "course": "(国際）", "students": 2 },
+            { "name": "帝京大学", "course": "(文)", "students": 1 },
+            { "name": "東海大学", "course": "(文)", "students": 1 },
+            {
+              "name": "東京工科大学",
+              "course": "(バイオニクス)",
+              "students": 1
+            },
+            { "name": "獨協大学", "course": "（法）", "students": 1 },
+            { "name": "東洋大学", "course": "(経)", "students": 2 },
+            { "name": "東洋大学", "course": "(法)", "students": 1 },
+            {
+              "name": "日本女子大学",
+              "course": "（家政・児童）",
+              "students": 1
+            },
+            { "name": "武蔵大学", "course": "（人文）（経済）", "students": 1 },
+            { "name": "和光大学", "course": "（表現）", "students": 1 },
+            { "name": "早稲田大学", "course": "（一文）", "students": 1 }
+          ]
+        },
+        {
+          "title": "短期大学",
+          "data": [
+            { "name": "千葉経済短大", "course": "(初等教育)", "students": 1 },
+            { "name": "聖徳大学短期大学部", "course": "(保育)", "students": 1 }
+          ]
+        },
+        {
+          "title": "専門学校",
+          "data": [
+            {
+              "name": "文京学院大学医療技術専門学校",
+              "course": "臨床検査学科",
+              "students": 1
+            },
+            { "name": "聖心女子専門学校", "course": "保育科", "students": 1 }
+          ]
+        }
+      ]
+    }
+  ]
+}

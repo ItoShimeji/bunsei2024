@@ -1,0 +1,167 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 5,
+        "exam_takers": 4,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            { "name": "浦和実業中学校", "course": "特待Ｂ", "students": 1 },
+            { "name": "大妻中野中学校", "course": "", "students": 1 },
+            { "name": "大宮開成中学校", "course": "Ｔ合格", "students": 1 },
+            { "name": "共立女子中学校", "course": "", "students": 1 },
+            { "name": "埼玉平成中学校", "course": "", "students": 1 },
+            { "name": "十文字中学校", "course": "", "students": 1 },
+            { "name": "城西大学附属城西中学校", "course": "", "students": 1 },
+            { "name": "成城中学校", "course": "", "students": 1 },
+            { "name": "成立学園中学校", "course": "", "students": 2 },
+            { "name": "東洋大学京北中学校", "course": "", "students": 1 },
+            { "name": "獨協中学校", "course": "", "students": 1 },
+            { "name": "武南中学校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 9,
+        "exam_takers": 8,
+        "advancers": 1
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            { "name": "小山台高等学校", "course": "", "students": 1 },
+            { "name": "駒場高等学校", "course": "", "students": 1 },
+            { "name": "戸山高等学校", "course": "", "students": 1 },
+            { "name": "農芸高等学校", "course": "", "students": 1 },
+            { "name": "稔ヶ丘高等学校", "course": "", "students": 1 },
+            { "name": "向丘高等学校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            { "name": "京華商業高等学校", "course": "", "students": 1 },
+            {
+              "name": "淑徳高等学校",
+              "course": "特進選抜コース",
+              "students": 1
+            },
+            {
+              "name": "東京成徳大学高等学校",
+              "course": "進学コース",
+              "students": 1
+            },
+            {
+              "name": "日本工業大学駒場高等学校",
+              "course": "文理未来コース",
+              "students": 1
+            },
+            { "name": "日本大学豊山高等学校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立高校進学",
+          "data": [
+            { "name": "修徳高等学校", "course": "特進クラス", "students": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 6,
+        "exam_takers": 6
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": [
+            {
+              "name": "横浜国立大学",
+              "course": "理工学部 数物・電子情報系学科",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "大妻女子大学",
+              "course": "人間関係学部 社会福祉学科",
+              "students": 1
+            },
+            {
+              "name": "芝浦工業大学",
+              "course": "工学部 情報工学科",
+              "students": 1
+            },
+            {
+              "name": "大正大学",
+              "course": "社会共生学部 公共政策学科",
+              "students": 1
+            },
+            {
+              "name": "千葉工業大学",
+              "course": "社会システム科学部 金融・経営リスク科学科",
+              "students": 1
+            },
+            {
+              "name": "中央大学",
+              "course": "理工部 情報工学科",
+              "students": 1
+            },
+            {
+              "name": "東京家政大学",
+              "course": "子ども支援学部 子ども支援学科",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "工学部 機械工学科",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "工学部 情報工学科",
+              "students": 1
+            },
+            {
+              "name": "日本工業大学",
+              "course": "先進工学部 情報メディア学科",
+              "students": 1
+            },
+            {
+              "name": "明治学院大学",
+              "course": "経済学部 経済学科",
+              "students": 1
+            },
+            {
+              "name": "早稲田大学",
+              "course": "創造理工部 総合機械学科",
+              "students": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

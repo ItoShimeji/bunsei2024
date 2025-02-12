@@ -1,0 +1,194 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 9,
+        "exam_takers": 5,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": []
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            { "name": "足立学園中学校", "course": "", "students": 1 },
+            { "name": "大宮開成中学校", "course": "S合格", "students": 1 },
+            { "name": "京華女子中学校", "course": "", "students": 1 },
+            { "name": "埼玉平成中学校", "course": "", "students": 1 },
+            { "name": "栄東中学校", "course": "東大コース", "students": 1 },
+            { "name": "十文字中学校", "course": "", "students": 2 },
+            { "name": "城北中学校", "course": "", "students": 1 },
+            { "name": "成立学園中学校", "course": "", "students": 1 },
+            { "name": "東京成徳大学中学校", "course": "", "students": 3 },
+            { "name": "武南中学校", "course": "", "students": 2 },
+            { "name": "文京学院大学女子中学校", "course": "", "students": 2 }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": [
+            {
+              "name": "東京学芸大学付属竹早中学校",
+              "course": "",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 12,
+        "exam_takers": 9,
+        "advancers": 3
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            { "name": "北園高等学校", "course": "", "students": 1 },
+            { "name": "小山台高等学校", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            { "name": "京華高等学校", "course": "特進コース", "students": 1 },
+            { "name": "京華商業高等学校", "course": "", "students": 1 },
+            { "name": "国学院高等学校", "course": "", "students": 1 },
+            {
+              "name": "貞静学園高等学校",
+              "course": "総合進学コース",
+              "students": 1
+            },
+            {
+              "name": "東京成徳大学高等学校",
+              "course": "進学コース",
+              "students": 1
+            },
+            { "name": "東洋大学京北高等学校", "course": "", "students": 2 },
+            { "name": "日本大学第二高等学校", "course": "", "students": 1 },
+            { "name": "保善高等学校", "course": "", "students": 2 }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": [
+            {
+              "name": "桜修館中等教育学校",
+              "course": "後期課程",
+              "students": 1
+            },
+            {
+              "name": "東京大学教育学部付属中等教育学校",
+              "course": "後期課程",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立高校進学",
+          "data": [{ "name": "京華高等学校", "course": "", "students": 1 }]
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 6,
+        "exam_takers": 6,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": [
+            {
+              "name": "国公立大学横浜国立大学",
+              "course": "理工学部 機械・海洋・材料系学科",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            {
+              "name": "大妻女子大学",
+              "course": "文学部 コミュニケーション文化学科",
+              "students": 1
+            },
+            {
+              "name": "共立女子大学",
+              "course": "文芸学部 文芸学科",
+              "students": 1
+            },
+            {
+              "name": "芝浦工業大学",
+              "course": "工学部 電気電子工学課程 電気・ロボット工学コース",
+              "students": 2
+            },
+            {
+              "name": "大正大学",
+              "course": "社会共生学部 公共政策学科",
+              "students": 1
+            },
+            {
+              "name": "中央大学",
+              "course": "理工学部 精密機械工学科",
+              "students": 2
+            },
+            {
+              "name": "帝京平成大学",
+              "course": "人文社会学部 児童学科 小学校・特別支援コース",
+              "students": 1
+            },
+            {
+              "name": "東京理科大学",
+              "course": "工学部 機械工学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "経済学部 経営学科",
+              "students": 1
+            },
+            {
+              "name": "東洋大学",
+              "course": "経済学部 会計ファイナンス学科",
+              "students": 1
+            },
+            {
+              "name": "獨協大学",
+              "course": "経済学部 経営学科",
+              "students": 4
+            },
+            {
+              "name": "日本女子大学",
+              "course": "人間社会学部 社会福祉学科",
+              "students": 1
+            },
+            {
+              "name": "明治学院大学",
+              "course": "経済学部 経営学科",
+              "students": 1
+            }
+          ]
+        },
+        {
+          "title": "海外大学",
+          "data": []
+        }
+      ]
+    }
+  ]
+}

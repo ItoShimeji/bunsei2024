@@ -1,0 +1,186 @@
+{
+  "schools": [
+    {
+      "school": "中学",
+      "overview": {
+        "total_students": 13,
+        "exam_takers": 10,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立中学",
+          "data": [
+            { "name": "お茶の水女子大附属", "course": "", "students": 1 },
+            { "name": "学芸大附属大泉", "course": "", "students": 1 },
+            { "name": "学芸大附属竹早", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立中学",
+          "data": [
+            { "name": "跡見学園", "course": "", "students": 1 },
+            { "name": "大妻", "course": "", "students": 1 },
+            { "name": "吉祥女子", "course": "", "students": 1 },
+            { "name": "共立", "course": "", "students": 1 },
+            { "name": "桜丘女子(A特待)（B特待）", "course": "", "students": 2 },
+            { "name": "品川女子学院", "course": "", "students": 1 },
+            { "name": "西武文理", "course": "", "students": 2 },
+            { "name": "滝野川女子(特待)", "course": "", "students": 1 },
+            { "name": "東京家政大附属", "course": "", "students": 1 },
+            { "name": "日大豊山女子", "course": "", "students": 1 },
+            { "name": "文京学院女子", "course": "", "students": 1 },
+            { "name": "和洋国府台女子", "course": "", "students": 3 },
+            { "name": "和洋九段女子", "course": "", "students": 2 }
+          ]
+        },
+        {
+          "title": "国立中学進学",
+          "data": []
+        },
+        {
+          "title": "私立中学進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "高校",
+      "overview": {
+        "total_students": 29,
+        "exam_takers": 29,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "都立高校",
+          "data": [
+            { "name": "板橋", "course": "", "students": 1 },
+            { "name": "北園", "course": "", "students": 1 },
+            { "name": "高島", "course": "", "students": 1 },
+            { "name": "白鴎", "course": "", "students": 1 },
+            { "name": "広尾", "course": "", "students": 1 },
+            { "name": "富士", "course": "", "students": 1 },
+            { "name": "文京", "course": "", "students": 2 },
+            { "name": "三田", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "私立高校",
+          "data": [
+            { "name": "足立学園", "course": "文理", "students": 1 },
+            { "name": "郁文館", "course": "", "students": 1 },
+            { "name": "神田女学園", "course": "", "students": 1 },
+            { "name": "関東国際", "course": "英語", "students": 1 },
+            { "name": "京華女子", "course": "", "students": 1 },
+            { "name": "國學院", "course": "", "students": 4 },
+            { "name": "小松原", "course": "", "students": 1 },
+            { "name": "桜丘女子", "course": "英語特進", "students": 2 },
+            { "name": "桜丘女子", "course": "文理", "students": 2 },
+            { "name": "淑徳", "course": "", "students": 1 },
+            { "name": "淑徳学園", "course": "", "students": 1 },
+            { "name": "淑徳巣鴨", "course": "文理", "students": 2 },
+            { "name": "順天", "course": "", "students": 1 },
+            { "name": "専修大附属", "course": "", "students": 1 },
+            { "name": "専修大附属松戸", "course": "", "students": 1 },
+            { "name": "大東文化第一", "course": "", "students": 1 },
+            { "name": "調布", "course": "", "students": 1 },
+            { "name": "帝京ロンドン学園", "course": "", "students": 1 },
+            { "name": "東海大浦安", "course": "", "students": 1 },
+            { "name": "東京成徳大学高校", "course": "", "students": 2 },
+            { "name": "東京農業大附属第一", "course": "", "students": 1 },
+            { "name": "東経短大村田女子", "course": "", "students": 1 },
+            { "name": "豊島学院", "course": "", "students": 1 },
+            { "name": "日大一高", "course": "", "students": 1 },
+            { "name": "日大鶴ヶ丘", "course": "", "students": 1 },
+            { "name": "日本学園", "course": "", "students": 1 },
+            { "name": "富士見", "course": "", "students": 1 },
+            { "name": "文化女子大杉並", "course": "特待", "students": 1 },
+            { "name": "保善(特進)", "course": "", "students": 1 },
+            { "name": "明治学院", "course": "", "students": 1 },
+            { "name": "明治大学付属中野", "course": "", "students": 1 },
+            { "name": "目白学園", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "国公立高校進学",
+          "data": []
+        },
+        {
+          "title": "私立高校進学",
+          "data": []
+        }
+      ]
+    },
+    {
+      "school": "大学",
+      "overview": {
+        "total_students": 24,
+        "exam_takers": 0,
+        "advancers": 0
+      },
+      "tables": [
+        {
+          "title": "国公立大学",
+          "data": []
+        },
+        {
+          "title": "私立大学",
+          "data": [
+            { "name": "学習院大", "course": "法", "students": 1 },
+            { "name": "学習院大", "course": "法", "students": 1 },
+            { "name": "学習院大", "course": "法", "students": 1 },
+            { "name": "学習院大", "course": "法", "students": 1 },
+            { "name": "駒沢大学", "course": "史学", "students": 1 },
+            { "name": "芝浦工業大", "course": "土木", "students": 1 },
+            { "name": "白百合女子大", "course": "仏文", "students": 1 },
+            { "name": "女子栄養大", "course": "栄養", "students": 1 },
+            { "name": "城西大", "course": "経済", "students": 1 },
+            { "name": "成蹊大", "course": "経済", "students": 1 },
+            { "name": "成城大", "course": "経済", "students": 1 },
+            { "name": "清泉女子大", "course": "スペイン語", "students": 1 },
+            { "name": "中央大", "course": "法・法", "students": 1 },
+            { "name": "中央大", "course": "商", "students": 1 },
+            { "name": "東京経済大", "course": "経済", "students": 1 },
+            { "name": "東京経済大", "course": "経済", "students": 1 },
+            { "name": "東京経済大", "course": "経済", "students": 1 },
+            { "name": "東京理科大", "course": "建築Ⅱ", "students": 1 },
+            { "name": "東邦大", "course": "薬学", "students": 1 },
+            { "name": "東洋大学", "course": "経済", "students": 1 },
+            { "name": "東洋大学", "course": "経済", "students": 1 },
+            { "name": "東洋大学", "course": "社会", "students": 1 },
+            { "name": "東洋学園大", "course": "人間学", "students": 1 },
+            { "name": "日本体育大", "course": "社会体育", "students": 1 },
+            { "name": "日本大", "course": "国際関係", "students": 1 },
+            { "name": "日本大", "course": "法", "students": 1 },
+            { "name": "日本大", "course": "商", "students": 1 },
+            { "name": "フェリス女学院大", "course": "英文", "students": 1 },
+            { "name": "法政大", "course": "法", "students": 1 },
+            { "name": "武蔵大", "course": "経済", "students": 1 },
+            { "name": "明星大", "course": "日本文化", "students": 1 },
+            { "name": "明治学院大", "course": "法", "students": 1 },
+            { "name": "明治学院大", "course": "法", "students": 1 },
+            { "name": "明治学院大", "course": "国際", "students": 1 },
+            { "name": "明治大", "course": "法", "students": 1 }
+          ]
+        },
+        {
+          "title": "海外大学",
+          "data": []
+        },
+        {
+          "title": "短期大学",
+          "data": [
+            { "name": "川村短期大（生活）", "course": "", "students": 1 }
+          ]
+        },
+        {
+          "title": "専門学校",
+          "data": [
+            { "name": "東京医科大学看護専門学校", "course": "", "students": 1 }
+          ]
+        }
+      ]
+    }
+  ]
+}
