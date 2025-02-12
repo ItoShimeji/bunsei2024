@@ -103,9 +103,9 @@ function generateSchoolHtml(data) {
  * @returns {number|null} 数値の場合は数値、そうでなければ null
  */
 function processSearchParams(yearString, allYearsList) {
-  if (!yearString) return;
+  let year;
 
-  let year = Number(new URLSearchParams(yearString).get("year"));
+  if (yearString) year = Number(new URLSearchParams(yearString).get("year"));
 
   // ハッシュが不正な場合は最新年度を使用
   if (!year || !allYearsList.includes(year))
