@@ -6,6 +6,36 @@
   padding: 2rem 1rem 2rem 1rem;
 }
 
+@media screen and (min-width: 960px) {
+  .footer {
+    padding-top: 4rem;
+  }
+  .footer-inner {
+    max-width: 1280px;
+    margin: auto;
+  }
+  .footer-links {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 2列 */
+    grid-gap: 12rem;
+  }
+}
+
+.footer-texts {
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-texts {
+    margin-bottom: 0;
+  }
+}
+
 .footer p,
 .footer li {
   line-height: 1.5rem;
@@ -36,19 +66,19 @@
 .footer-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
-  gap: 0.4rem;
-  /* display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; */
+  gap: 3rem 0.4rem;
   padding: 0 0.4rem 0 0.4rem;
 }
 
-/* .footer-links > div {
-  min-width: 160px;
-} */
+@media screen and (min-width: 960px) {
+  .footer-links {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+  }
+}
 
 .footer-links h2 {
-  margin: 2rem 0 0.6rem 0;
+  margin-bottom: 0.6rem;
   font-size: 1.1rem;
 }
 
