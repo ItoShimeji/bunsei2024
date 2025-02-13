@@ -201,6 +201,36 @@ table {
   width: 100%;
 }
 
+.rectangle-button {
+  background-color: var(--white2);
+  color: #262626;
+  border-radius: 0.4rem;
+  padding: 0rem;
+  height: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+.rectangle-button a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.rectangle-button a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: rotate(45deg) translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+}
+
 caption,
 table th,
 table td {

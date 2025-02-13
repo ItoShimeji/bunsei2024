@@ -105,12 +105,25 @@ function processSearchParams(yearString, allYearsList) {
 }
 
 function generateLinksHtml(allYearsList, currentPageYear) {
-  const html = allYearsList
+  const htmlSide = allYearsList
     .reverse()
     .map(
       (year) =>
         `
-        <li class="result-grid-item ${
+        <li class="result-link-side ${
+          year === currentPageYear && "result-now"
+        }">
+          <a href="/result/?year=${year}">${year}年</a>
+        </li>
+        `
+    )
+    .join("");
+  const htmlBottom = allYearsList
+    .reverse()
+    .map(
+      (year) =>
+        `
+        <li class="rectangle-button result-rectangle-button ${
           year === currentPageYear && "result-now"
         }">
           <a href="/result/?year=${year}">${year}年</a>
@@ -119,7 +132,7 @@ function generateLinksHtml(allYearsList, currentPageYear) {
     )
     .join("");
 
-  return html;
+  return [htmlSide, htmlBottom];
 }
 
 function switchLinks() {
@@ -173,9 +186,10 @@ export default async function resultLoader() {
     container.innerHTML = resultHtml;
   }
 
-  const yearsContainers = document.querySelectorAll(".result-grid-container");
-  Array.from(yearsContainers).forEach((yearsContainer) => {
-    yearsContainer.innerHTML = LinksHtml;
+  const yearsContainers = document.querySelectorAll(".result-links-list");
+  // サイドの他の年度と下のそれ用のdivにそれぞれに合わせたhtmlを挿入。
+  Array.from(yearsContainers).forEach((yearsContainer, index) => {
+    yearsContainer.innerHTML = LinksHtml[index];
   });
 
   // 他の年度のリンク欄の表示を変更

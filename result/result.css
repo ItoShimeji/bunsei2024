@@ -25,7 +25,7 @@
     min-height: 2000px; /*レイアウトシフトの防止*/
   }
   .result-links-side {
-    margin-top: 12rem;
+    margin-top: 11rem;
     flex-shrink: 0;
   }
 }
@@ -104,60 +104,38 @@ table {
   margin-bottom: 0.8rem;
   text-align: center;
 }
-.result-links .result-grid-container {
+.result-links .result-links-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
   gap: 0.6rem; /* 各アイテム間のスペース */
   margin-bottom: 5rem;
 }
-.result-links .result-grid-item {
+.result-links .result-rectangle-button {
   background-color: var(--black2);
-  border-radius: 0.4rem;
-  padding: 0rem;
-  height: 3rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  cursor: pointer;
 }
 .result-links .result-now {
   background-color: var(--black3);
   opacity: 0.7;
 }
-.result-links .result-grid-item a {
+.result-links .result-rectangle-button a {
   color: var(--white);
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-.result-links .result-grid-item a::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: rotate(45deg) translateY(-50%);
-  width: 6px;
-  height: 6px;
-  border-width: 2px 2px 0 0;
-  border-style: solid;
 }
 
-.result-links-side .result-grid-container {
-  padding: 1rem;
+.result-links-side .result-links-list {
+  padding: 1.5rem 1rem;
   border: 3px solid var(--white);
   background-color: var(--white3);
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.6rem;
 }
-.result-links-side .result-grid-item {
+.result-links-side .result-link-side {
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-.result-links-side .result-grid-item a {
+.result-links-side .result-link-side a {
   padding: 0 1rem;
   color: var(--black2);
   font-weight: bold;

@@ -83,48 +83,15 @@
   }
 }
 
-.top-grid-container {
+.rectangle-button-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
   gap: 0.4rem; /* 各アイテム間のスペース */
 }
-
 @media screen and (min-width: 960px) {
-  .top-grid-container {
+  .rectangle-button-container {
     grid-template-columns: repeat(4, 1fr);
   }
-}
-
-.top-grid-item {
-  background-color: var(--white2);
-  color: #262626;
-  border-radius: 0.4rem;
-  padding: 0rem;
-  height: 3rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  cursor: pointer;
-}
-
-.top-grid-item a {
-  color: var(--black);
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-
-.top-grid-item a::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: rotate(45deg) translateY(-50%);
-  width: 6px;
-  height: 6px;
-  border-width: 2px 2px 0 0;
-  border-style: solid;
 }
 
 #access .address {
