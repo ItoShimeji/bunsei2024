@@ -9,7 +9,7 @@ import resultLoader from "./pages/result.js";
 (async () => {
   //イベントリスナー登録(非同期処理の前に行わないとスクロール処理は間に合わない)
   setupPageTransition({ samePageOffset: 100, crossPageOffset: 80 });
-  initSmoothScroll();
+  initSmoothScroll(80);
 
   // ヘッダーとフッターをロード
   await templateLoder("/components/header.html", "header");

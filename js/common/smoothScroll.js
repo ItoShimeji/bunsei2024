@@ -1,9 +1,9 @@
-export function initSmoothScroll(defaultOffset = 80) {
+export function initSmoothScroll(samePageOffset) {
   window.addEventListener("load", () => {
-    // crossPageOffsetがセッションに保存されている場合はそちらを利用
+    // セッションに crossPageOffset が保存されていれば利用（異ページ遷移時）
     const storedOffset = sessionStorage.getItem("crossPageOffset");
-    const offset = storedOffset ? parseInt(storedOffset, 10) : defaultOffset;
-    // 使用後は削除しておくと、次回ロード時に影響しません
+    const offset = storedOffset ? parseInt(storedOffset, 10) : samePageOffset;
+    // 使用済みなので削除
     sessionStorage.removeItem("crossPageOffset");
     scrollToHash(offset);
   });

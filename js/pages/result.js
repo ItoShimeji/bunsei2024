@@ -106,12 +106,12 @@ function processSearchParams(yearString, allYearsList) {
 
 function generateLinksHtml(allYearsList, currentPageYear) {
   const htmlSide = allYearsList
-    .reverse()
+    .toReversed()
     .map(
       (year) =>
         `
         <li class="result-link-side ${
-          year === currentPageYear && "result-now"
+          year === currentPageYear ? "result-now" : ""
         }">
           <a href="/result/?year=${year}">${year}年</a>
         </li>
@@ -119,12 +119,12 @@ function generateLinksHtml(allYearsList, currentPageYear) {
     )
     .join("");
   const htmlBottom = allYearsList
-    .reverse()
+    .toReversed()
     .map(
       (year) =>
         `
         <li class="rectangle-button result-rectangle-button ${
-          year === currentPageYear && "result-now"
+          year === currentPageYear ? "result-now" : ""
         }">
           <a href="/result/?year=${year}">${year}年</a>
         </li>

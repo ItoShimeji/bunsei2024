@@ -1,32 +1,51 @@
 import { scrollToHash } from "./smoothScroll.js";
 
-export function setupPageTransition({ samePageOffset, crossPageOffset } = {}) {
+export function setupPageTransition({ samePageOffset, crossPageOffset }) {
   document.addEventListener("click", (event) => {
-    // クリックイベント発生箇所の最も近い li 要素を取得
+    // クリックされた要素が含まれる li 要素を取得
     const li = event.target.closest("li");
-    if (!li) return;
+    if (!li) return; // li がない場合は対象外
 
-    // li の直下（:scope > a）に a 要素が存在する場合のみ対象とする
-    const directAnchor = li.querySelector(":scope > a ");
-    if (!directAnchor) return;
-
-    // ここからは li のクリックを a のクリックと同様の動作として処理
-    const linkUrl = new URL(directAnchor.href, window.location.href);
-
+    // li の直近の親要素が対象のコンテナかチェック
+    const parent = li.parentElement;
     if (
-      linkUrl.host === window.location.host &&
-      linkUrl.pathname === window.location.pathname
+      !parent ||
+      (!parent.classList.contains("expanded-click-container") &&
+        !parent.classList.contains("rectangle-button-container"))
     ) {
-      // 【同一ページ内リンク】
-      event.preventDefault();
-      history.pushState(null, "", directAnchor.hash);
-      scrollToHash(samePageOffset);
+      return; // 対象のコンテナでなければ何もしない
+    }
+
+    // li 内に a タグが存在するかチェック
+    const anchor = li.querySelector("a");
+    if (!anchor) return;
+
+    // スクロール処理が必要か判定
+    if (anchor.hash && /^#[a-zA-Z]/.test(anchor.hash)) {
+      // 同一ページ内リンクか異ページリンクか判定
+      const linkUrl = new URL(anchor.href, window.location.href);
+      if (
+        linkUrl.host === window.location.host &&
+        linkUrl.pathname === window.location.pathname
+      ) {
+        // ケース1: 同一ページ内移動
+        event.preventDefault();
+        history.pushState(null, "", anchor.hash);
+        scrollToHash(samePageOffset);
+      } else {
+        // ケース2: 異ページ移動
+        event.preventDefault();
+        sessionStorage.setItem("crossPageOffset", crossPageOffset);
+        window.location.href = anchor.href;
+      }
     } else {
-      // 【異ページリンク】
-      // 次ページでのスクロールオフセットとして crossPageOffset を利用できるよう保存
-      sessionStorage.setItem("crossPageOffset", crossPageOffset);
-      event.preventDefault();
-      window.location.href = directAnchor.href;
+      if (anchor.target === "_blank") {
+        // ケース3: 別タブを開く
+        window.open(anchor.href, "_blank", "noopener,noreferrer");
+      } else {
+        // ケース4: それ以外の通常の移動
+        window.location.href = anchor.href;
+      }
     }
   });
 }
