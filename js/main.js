@@ -15,13 +15,16 @@ import resultLoader from "./pages/result.js";
 
   //イベントリスナー登録
   attachHeaderEvents();
-  attachAccessEvents();
 
   //個別のページに対する処理
   const currentPath = window.location.pathname;
 
-  if (currentPath.endsWith("result/")) {
-    await resultLoader();
-    // await templateLoder("/components/results/result.html", "#result");
+  switch (currentPath) {
+    case "/":
+      attachAccessEvents();
+      break;
+    case "/result/":
+      await resultLoader();
+      break;
   }
 })();
