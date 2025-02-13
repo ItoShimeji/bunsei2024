@@ -71,6 +71,12 @@ main h1 {
   border-radius: 10%;
 }
 
+@media screen and (min-width: 960px) {
+  main h1 {
+    margin-bottom: 2rem;
+  }
+}
+
 .main-section h2,
 main article h2 {
   font-size: 1.5rem;

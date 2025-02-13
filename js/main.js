@@ -1,6 +1,7 @@
 import templateLoder from "./common/templateLoader.js";
-import attachHeaderEvents from "./common/attachHeaderEvents.js";
 import attachPageTransitionEvents from "./common/scroll.js";
+import attachHeaderEvents from "./common/attachHeaderEvents.js";
+import attachAccessEvents from "./pages/home.js";
 import resultLoader from "./pages/result.js";
 
 //即時実行関数
@@ -14,6 +15,7 @@ import resultLoader from "./pages/result.js";
 
   //イベントリスナー登録
   attachHeaderEvents();
+  attachAccessEvents();
 
   //個別のページに対する処理
   const currentPath = window.location.pathname;
