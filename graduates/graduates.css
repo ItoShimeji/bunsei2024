@@ -32,3 +32,18 @@
 .paragraph {
   margin-left: 0.6rem;
 }
+
+.notice {
+  margin-top: 4rem;
+  padding: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  background-color: var(--blue2);
+  border-radius: 0.5rem;
+}
+
+.notice a {
+  color: var(--white);
+  border-color: var(--white);
+  line-height: 1.6rem;
+}
