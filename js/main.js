@@ -1,5 +1,6 @@
 import templateLoder from "./common/templateLoader.js";
-import attachPageTransitionEvents from "./common/scroll.js";
+import { setupPageTransition } from "./common/pageTransition.js";
+import { initSmoothScroll } from "./common/smoothScroll.js";
 import attachHeaderEvents from "./common/attachHeaderEvents.js";
 import attachAccessEvents from "./pages/home.js";
 import resultLoader from "./pages/result.js";
@@ -7,7 +8,8 @@ import resultLoader from "./pages/result.js";
 //即時実行関数
 (async () => {
   //イベントリスナー登録(非同期処理の前に行わないとスクロール処理は間に合わない)
-  attachPageTransitionEvents();
+  setupPageTransition({ samePageOffset: 100, crossPageOffset: 80 });
+  initSmoothScroll();
 
   // ヘッダーとフッターをロード
   await templateLoder("/components/header.html", "header");
