@@ -86,8 +86,8 @@
     height: inherit;
     display: flex;
     justify-content: end;
-    min-width: 70%;
-    max-width: 80%;
+    min-width: 60%;
+    max-width: 70%;
   }
 }
 
@@ -133,7 +133,7 @@
 @media screen and (min-width: 960px) {
   .nav-items__item a {
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: normal;
   }
 

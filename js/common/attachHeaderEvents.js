@@ -14,7 +14,6 @@ export default function attachHeaderEvents() {
   const obog = document.querySelector("#ob-og");
   let screenWidth = window.innerWidth;
   const attachHeader = () => {
-    if (screenWidth === window.innerWidth) return;
     screenWidth = window.innerWidth;
     if (screenWidth >= 960) {
       obog.innerHTML = "OB/OG";
