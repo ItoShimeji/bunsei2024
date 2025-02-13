@@ -87,14 +87,6 @@ main article:nth-of-type(even) > h2 {
   border-left: solid 5px var(--secondary-header2);
 }
 
-/* main h3 {
-  display: block;
-  color: #e24950;
-  font-size: 1.2rem;
-  font-weight: 700;
-  padding-bottom: 0.2rem;
-} */
-
 main p {
   margin-bottom: 0.5rem;
 }
@@ -131,7 +123,6 @@ main ul > li > h3,
 main ol > li > h3 {
   font-size: 1.1rem;
   color: var(--black);
-  /* font-weight: 400; */
   margin-bottom: 0.2rem;
 }
 ul.list-check > li::before {
@@ -177,11 +168,11 @@ ol.list-circle > li::before {
 }
 
 main a {
-  color: #2987b3;
+  color: var(--blue2);
   text-decoration: none;
   font-weight: 700;
   padding: 0 0.1rem;
-  border-bottom: #2987b3 2px solid;
+  border-bottom: var(--blue2) 2px solid;
   transition: border-bottom-color 150ms;
 }
 main a:hover {
