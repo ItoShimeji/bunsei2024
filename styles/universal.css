@@ -9,7 +9,7 @@
   --blue: #1d2088;
   --blue2: #3d6dbe;
   --blue3: #d2dcea;
-  --red: #a83941;
+  --pink: #e96f84;
   --secondary-header1: #35d232;
   --secondary-header1-2: #2db62b;
   --secondary-header2: #e062b3;
@@ -40,8 +40,8 @@ main {
 @media screen and (min-width: 960px) {
   main {
     max-width: 960px;
-    padding: 0 3rem 0 3rem;
-    margin: 6rem auto 0 auto;
+    padding: 10rem 3rem;
+    margin: 0 auto;
   }
 }
 

@@ -2,6 +2,33 @@
   background: repeat center/100% url("/images/sakura-background.webp");
   background-position: 0 -5rem;
 }
+.contents-container {
+  min-height: 4000px; /*レイアウトシフトの防止*/
+}
+.main {
+  min-height: 4000px; /*レイアウトシフトの防止*/
+}
+@media screen and (min-width: 960px) {
+  .contents-container {
+    max-width: 1280px;
+    min-height: 2000px; /*レイアウトシフトの防止*/
+    padding: 10rem 3rem 0 3rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  main {
+    padding: 0;
+    margin: 0;
+    min-height: 2000px; /*レイアウトシフトの防止*/
+  }
+  .result-links-side {
+    margin-top: 12rem;
+    flex-shrink: 0;
+  }
+}
 #result {
   margin-bottom: 5rem;
 }
@@ -15,7 +42,7 @@
   border: dashed 1px var(--black3);
   margin: 0 auto 3rem auto;
   padding: 0.4em 0.5em;
-  color: rgb(233, 111, 132);
+  color: var(--pink);
 }
 
 .school {
@@ -63,12 +90,12 @@ table {
 .school-table tr > th:nth-of-type(1) {
   color: var(--white);
   background-color: var(--black3);
-  max-width: 4.5rem;
+  max-width: 3.5rem;
 }
 .school-table tr > td:nth-of-type(3),
 .school-table tr > th:nth-of-type(3) {
   text-align: center;
-  max-width: 2rem;
+  width: 2rem;
   vertical-align: middle;
 }
 
@@ -77,16 +104,14 @@ table {
   margin-bottom: 0.8rem;
   text-align: center;
 }
-
-.result-grid-container {
+.result-links .result-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
   gap: 0.6rem; /* 各アイテム間のスペース */
   margin-bottom: 5rem;
 }
-
-.result-grid-item {
-  background-color: var(--blue);
+.result-links .result-grid-item {
+  background-color: var(--black2);
   border-radius: 0.4rem;
   padding: 0rem;
   height: 3rem;
@@ -97,19 +122,16 @@ table {
 
   cursor: pointer;
 }
-
-.result-now {
+.result-links .result-now {
   background-color: var(--black3);
-  opacity: 0.6;
+  opacity: 0.7;
 }
-
-.result-grid-item a {
+.result-links .result-grid-item a {
   color: var(--white);
   text-decoration: none;
   font-size: 0.8rem;
 }
-
-.result-grid-item a::after {
+.result-links .result-grid-item a::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -121,6 +143,36 @@ table {
   border-style: solid;
 }
 
+.result-links-side .result-grid-container {
+  padding: 1rem;
+  border: 3px solid var(--white);
+  background-color: var(--white3);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.6rem;
+}
+.result-links-side .result-grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.result-links-side .result-grid-item a {
+  padding: 0 1rem;
+  color: var(--black2);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.2rem solid var(--black2);
+}
+.result-links-side .result-now a {
+  color: var(--pink);
+  border-color: var(--pink);
+}
+
 #attribution-sakura {
   text-align: right;
+  margin-bottom: 3rem;
 }

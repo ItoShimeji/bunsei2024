@@ -1,8 +1,3 @@
-/**
- * 統一化した JSON（schools 配列）に基づいて HTML を生成する関数
- * @param {Object} data JSON データ（例：{ schools: [ … ] }）
- * @returns {string} 生成した HTML 文字列
- */
 function generateSchoolHtml(data) {
   let html = "";
 
@@ -72,7 +67,7 @@ function generateSchoolHtml(data) {
           <tr>
             <td>${row.name}</td>
             <td>${row.course}</td>
-            <td>${row.students ? row.students + "名" : ""}</td>
+            <td>${row.students ? row.students + "名" : "1名"}</td>
           </tr>`;
           });
         } else {
@@ -97,11 +92,6 @@ function generateSchoolHtml(data) {
   return html;
 }
 
-/**
- * ハッシュ文字列（例: "#2024"）から数値を抽出する関数
- * @param {string} hashString
- * @returns {number|null} 数値の場合は数値、そうでなければ null
- */
 function processSearchParams(yearString, allYearsList) {
   let year;
 
@@ -132,9 +122,30 @@ function generateLinksHtml(allYearsList, currentPageYear) {
   return html;
 }
 
-/**
- * 結果ページのためのデータを読み込み、HTML を生成する関数
- */
+function switchLinks() {
+  const linksSideDiv = document.querySelector(".result-links-side");
+  const linksDiv = document.querySelector(".result-links");
+  const main = document.querySelector("main");
+  const resutDiv = document.querySelector("#result");
+
+  // 画面の幅によってレイアウトを変更
+  const adjustContentForViewport = () => {
+    const screenWidth = window.innerWidth;
+    if (screenWidth >= 960) {
+      linksDiv.remove();
+      main.insertAdjacentElement("beforebegin", linksSideDiv);
+    } else {
+      linksSideDiv.remove();
+      resutDiv.insertAdjacentElement("afterend", linksDiv);
+    }
+  };
+
+  if (linksSideDiv && linksDiv) {
+    adjustContentForViewport();
+    window.addEventListener("resize", adjustContentForViewport);
+  }
+}
+
 export default async function resultLoader() {
   // 年度一覧の JSON を取得
   const { years: allYearsList } = await fetch("/result/allYears.json").then(
@@ -151,11 +162,6 @@ export default async function resultLoader() {
 
   const LinksHtml = generateLinksHtml(allYearsList, year);
 
-  const yearsContainer = document.querySelector(".result-grid-container");
-  if (yearsContainer) {
-    yearsContainer.innerHTML = LinksHtml;
-  }
-
   // 生成した HTML を指定のコンテナに挿入
   const heading = document.querySelector(".result-heading");
   if (heading) {
@@ -166,4 +172,12 @@ export default async function resultLoader() {
   if (container) {
     container.innerHTML = resultHtml;
   }
+
+  const yearsContainers = document.querySelectorAll(".result-grid-container");
+  Array.from(yearsContainers).forEach((yearsContainer) => {
+    yearsContainer.innerHTML = LinksHtml;
+  });
+
+  // 他の年度のリンク欄の表示を変更
+  switchLinks();
 }
