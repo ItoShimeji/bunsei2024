@@ -45,7 +45,7 @@ main {
   }
 }
 
-main iframe {
+iframe {
   width: 100%;
   aspect-ratio: 1/1;
 }
@@ -54,7 +54,7 @@ main iframe {
   margin-bottom: 6rem;
 }
 
-main article {
+article {
   margin-bottom: 2rem;
 }
 
