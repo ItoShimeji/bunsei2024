@@ -1,15 +1,23 @@
 import templateLoder from "./common/templateLoader.js";
-import { setupPageTransition } from "./common/pageTransition.js";
-import { initSmoothScroll } from "./common/smoothScroll.js";
+import {
+  setupPageTransition,
+  attachLoadEvent,
+} from "./common/pageTransition.js";
 import attachHeaderEvents from "./common/attachHeaderEvents.js";
 import attachAccessEvents from "./pages/home.js";
 import resultLoader from "./pages/result.js";
 
+const defaultPageOffset = 110;
+const pageOffsets = [
+  { pathname: "/", offset: 110 },
+  { pathname: "/notice/", offset: 80 },
+];
+
 //即時実行関数
 (async () => {
   //イベントリスナー登録(非同期処理の前に行わないとスクロール処理は間に合わない)
-  setupPageTransition({ samePageOffset: 100, crossPageOffset: 80 });
-  initSmoothScroll(80);
+  setupPageTransition();
+  attachLoadEvent(defaultPageOffset, pageOffsets);
 
   // ヘッダーとフッターをロード
   await templateLoder("/components/header.html", "header");
@@ -23,9 +31,11 @@ import resultLoader from "./pages/result.js";
 
   switch (currentPath) {
     case "/":
+    case "/index.html":
       attachAccessEvents();
       break;
     case "/result/":
+    case "/result/index.html":
       await resultLoader();
       break;
   }
