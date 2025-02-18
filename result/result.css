@@ -133,7 +133,6 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 .result-links-side .result-link-side a {
   padding: 0 1rem;
@@ -144,9 +143,18 @@ table {
   text-align: center;
   padding-bottom: 0.2rem;
   border-bottom: 0.2rem solid var(--black2);
+  transition: border-bottom 150ms;
+}
+.result-links-side .result-link-side a:hover {
+  border-bottom: 0.2rem solid #00000000;
 }
 .result-links-side .result-now a {
   color: var(--pink);
+  border-color: var(--pink);
+  pointer-events: none;
+}
+.result-links-side .result-now a:hover {
+  cursor: default;
   border-color: var(--pink);
 }
 
