@@ -129,13 +129,35 @@ main article h2 {
   padding: 0.6rem 1.5rem 0.6rem 0.6rem;
   margin: 1rem 0 1rem 0;
 }
+.main-section h2::before,
+main article h2::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle; /* 文字と垂直中央に揃える */
+  width: 1.7rem; /* 少し大きめに指定 */
+  height: 1.7rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .main-section:nth-of-type(odd) > h2,
 main article:nth-of-type(odd) > h2 {
   border-left: solid 5px var(--secondary-header1);
 }
+.main-section:nth-of-type(odd) > h2:before,
+main article:nth-of-type(odd) > h2:before {
+  background-image: url("/images/bunnosuke-face.svg"); /* 挿入したい左側のイラストのパス */
+  margin-right: 0.5rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
+  margin-bottom: 0.3rem;
+}
 .main-section:nth-of-type(even) > h2,
 main article:nth-of-type(even) > h2 {
   border-left: solid 5px var(--secondary-header2);
+}
+.main-section:nth-of-type(even) > :before,
+main article:nth-of-type(even) > :before {
+  background-image: url("/images/bunnosuke-star.svg"); /* 挿入したい左側のイラストのパス */
+  margin-right: 0.5rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
+  margin-bottom: 0.3rem;
 }
 
 main p {
