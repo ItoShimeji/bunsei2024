@@ -79,7 +79,41 @@ main h1 {
       #00000000
     )
     1;
-  /* border-radius: 10%; */
+}
+/* 疑似要素で画像を挿入 */
+.default-headding::before,
+.default-headding::after {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom; /* 文字と垂直中央に揃える */
+  width: 2.5rem; /* 少し大きめに指定 */
+  height: 2.5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* 左側の画像 */
+.top-section:nth-of-type(odd) > .default-headding:before {
+  background-image: url("/images/bunnosuke-blue.svg"); /* 挿入したい左側のイラストのパス */
+  margin-right: 0.2rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
+  transform: rotate(-10deg); /* 外側に傾ける（角度は調整可） */
+}
+/* 右側の画像 */
+.top-section:nth-of-type(odd) > .default-headding::after {
+  background-image: url("/images/bunnosuke-red.svg"); /* 挿入したい右側のイラストのパス */
+  margin-left: 0.5rem;
+  transform: rotate(10deg); /* 外側に傾ける（角度は調整可） */
+}
+/* 左側の画像 */
+.top-section:nth-of-type(even) > .default-headding:before {
+  background-image: url("/images/bunnosuke-pencil.svg"); /* 挿入したい左側のイラストのパス */
+  margin-right: 0.2rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
+  transform: rotate(-10deg); /* 外側に傾ける（角度は調整可） */
+}
+/* 右側の画像 */
+.top-section:nth-of-type(even) > .default-headding::after {
+  background-image: url("/images/bunko-white.svg"); /* 挿入したい右側のイラストのパス */
+  margin-left: 0.5rem;
+  transform: rotate(10deg); /* 外側に傾ける（角度は調整可） */
 }
 
 @media screen and (min-width: 960px) {
