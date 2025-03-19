@@ -1,5 +1,6 @@
 /* フッタースタイル */
 .footer {
+  margin-top: 5rem;
   justify-content: end;
   background-color: var(--blue);
   color: var(--white);

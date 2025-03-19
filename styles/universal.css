@@ -70,6 +70,7 @@ main h1 {
 }
 /* 見出しスタイル */
 .default-headding {
+  margin-bottom: 2rem;
   border-bottom: var(--blue) 4px solid;
   border-image: linear-gradient(
       to right,
@@ -95,26 +96,26 @@ main h1 {
 }
 
 /* 奇数セクションの見出し装飾 */
-.section:nth-of-type(odd) > .section__heading.default-headding::before {
+.section:nth-of-type(odd) > .default-headding.default-headding::before {
   background-image: url("/images/bunnosuke-blue.svg");
   margin-right: 0.2rem;
   transform: rotate(-10deg);
 }
 
-.section:nth-of-type(odd) > .section__heading.default-headding::after {
+.section:nth-of-type(odd) > .default-headding.default-headding::after {
   background-image: url("/images/bunnosuke-red.svg");
   margin-left: 0.5rem;
   transform: rotate(10deg);
 }
 
 /* 偶数セクションの見出し装飾 */
-.section:nth-of-type(even) > .section__heading.default-headding::before {
+.section:nth-of-type(even) > .default-headding.default-headding::before {
   background-image: url("/images/bunnosuke-pencil.svg");
   margin-right: 0.2rem;
   transform: rotate(-10deg);
 }
 
-.section:nth-of-type(even) > .section__heading.default-headding::after {
+.section:nth-of-type(even) > .default-headding.default-headding::after {
   background-image: url("/images/bunko-white.svg");
   margin-left: 0.5rem;
   transform: rotate(10deg);
@@ -147,23 +148,23 @@ main h2::before {
 }
 
 /* 奇数セクション・記事のサブ見出し */
-.section:nth-of-type(odd) h2,
+.h2-container:nth-of-type(odd) h2,
 article:nth-of-type(odd) h2 {
   border-left: solid 5px var(--secondary-header1);
 }
 
-.section:nth-of-type(odd) h2::before,
+.h2-container:nth-of-type(odd) h2::before,
 article:nth-of-type(odd) h2::before {
   background-image: url("/images/bunnosuke-face.svg");
 }
 
 /* 偶数セクション・記事のサブ見出し */
-.section:nth-of-type(even) h2,
+.h2-container:nth-of-type(even) h2,
 article:nth-of-type(even) h2 {
   border-left: solid 5px var(--secondary-header2);
 }
 
-.section:nth-of-type(even) h2::before,
+.h2-container:nth-of-type(even) h2::before,
 article:nth-of-type(even) h2::before {
   background-image: url("/images/bunnosuke-star.svg");
 }

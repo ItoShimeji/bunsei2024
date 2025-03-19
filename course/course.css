@@ -13,23 +13,3 @@
 .course__image-container img:nth-of-type(2) {
   width: 40%;
 }
-
-/* コース記事スタイル */
-.course-article {
-  margin-bottom: 2rem;
-}
-
-.course-article__heading {
-  margin-bottom: 1.5rem;
-}
-
-/* レスポンシブ調整 */
-@media screen and (min-width: 960px) {
-  .course__image-container {
-    margin-bottom: 2rem;
-  }
-
-  .course-article {
-    margin-bottom: 3rem;
-  }
-}
