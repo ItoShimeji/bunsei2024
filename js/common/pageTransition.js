@@ -51,7 +51,10 @@ export function setupPageTransition() {
 
 function setOffset(e, defaultOffset, offsets) {
   const nextPath = e.target.location.pathname;
-  const offset = offsets.find((page) => page.pathname === nextPath);
+  const offset = offsets.find(
+    (page) =>
+      page.pathname === nextPath || `${page.pathname}index.html` === nextPath
+  );
   return offset ? offset.offset : defaultOffset;
 }
 
