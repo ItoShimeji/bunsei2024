@@ -7,9 +7,43 @@
 
 .title-container {
   height: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.BigDipper {
+  position: absolute;
+  right: 0;
+  margin-right: 0rem;
+  margin-top: -9rem;
+  width: 70%;
+  z-index: -1;
+}
+@media screen and (min-width: 480px) {
+  .BigDipper {
+    right: 0;
+    margin-right: 3rem;
+    margin-top: -6rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .BigDipper {
+    right: 0;
+    margin-right: 6rem;
+    margin-top: -3rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .BigDipper {
+    right: 0;
+    margin-right: 3rem;
+    margin-top: -6rem;
+    width: 60%;
+  }
 }
 
 .title {
