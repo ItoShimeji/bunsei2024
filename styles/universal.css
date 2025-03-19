@@ -68,7 +68,16 @@ main h1 {
   margin-bottom: 1rem;
   text-align: center;
   border-bottom: var(--blue) 4px solid;
-  border-radius: 10%;
+  border-image: linear-gradient(
+      to right,
+      #00000000,
+      var(--blue),
+      var(--blue),
+      var(--blue),
+      #00000000
+    )
+    1;
+  /* border-radius: 10%; */
 }
 
 @media screen and (min-width: 960px) {
