@@ -1,17 +1,24 @@
+/* 入試結果ページのスタイル */
+
+/* 背景設定 */
 .container {
   background: repeat center/100% url("/images/sakura-background.webp");
   background-position: 0 -5rem;
 }
-.contents-container {
-  min-height: 4000px; /*レイアウトシフトの防止*/
+
+/* コンテンツコンテナ */
+.result__container {
+  min-height: 4000px; /* レイアウトシフトの防止 */
 }
-.main {
-  min-height: 4000px; /*レイアウトシフトの防止*/
+
+main {
+  min-height: 4000px; /* レイアウトシフトの防止 */
 }
+
 @media screen and (min-width: 960px) {
-  .contents-container {
+  .result__container {
     max-width: 1280px;
-    min-height: 2000px; /*レイアウトシフトの防止*/
+    min-height: 2000px; /* レイアウトシフトの防止 */
     padding: 10rem 3rem 0 3rem;
     margin: auto;
     display: flex;
@@ -19,57 +26,69 @@
     justify-content: space-between;
     gap: 2rem;
   }
+
   main {
     padding: 0;
     margin: 0;
-    min-height: 2000px; /*レイアウトシフトの防止*/
+    min-height: 2000px; /* レイアウトシフトの防止 */
   }
-  .result-links-side {
+
+  .result__sidebar {
     margin-top: 11rem;
     flex-shrink: 0;
   }
 }
-#result {
+
+/* 結果コンテナ */
+.result__content {
   margin-bottom: 5rem;
 }
 
-.result-heading {
+/* 結果見出し */
+.result__heading {
   background: var(--white);
   display: block;
   max-width: 20rem;
-  box-shadow: 0px 0px 0px 5px var(--white);
+  box-shadow: 0 0 0 5px var(--white);
   border-radius: 4px;
   border: dashed 1px var(--black3);
   margin: 0 auto 3rem auto;
   padding: 0.4em 0.5em;
   color: var(--pink);
+  text-align: center;
 }
 
+/* 学校セクション */
 .school {
   margin-top: 5rem;
 }
+
 .school:nth-of-type(1) {
   margin-top: 3rem;
 }
 
-.school-title {
+.school__header {
   height: auto;
   margin-bottom: 1.3rem;
 }
-.school-title > .title {
+
+.school__title {
   font-size: 1.5rem;
-  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
-  margin: 1rem 0 1rem 0;
+  padding: 0.4rem 0.6rem;
+  margin: 1rem 0;
   font-weight: bold;
 }
-.school:nth-of-type(odd) .school-title > .title {
-  border-left: solid 5px var(--secondary-header1);
-}
-.school:nth-of-type(even) .school-title > .title {
-  border-left: solid 5px var(--secondary-header2);
+
+.school:nth-of-type(odd) .school__title {
+  border-left: solid 5px var(--green);
 }
 
-caption {
+.school:nth-of-type(even) .school__title {
+  border-left: solid 5px var(--purple);
+}
+
+/* テーブルスタイル */
+.school__table caption {
   padding: 0.6rem;
   color: var(--white);
   font-size: 1.2rem;
@@ -77,88 +96,121 @@ caption {
   vertical-align: middle;
   background-color: var(--blue2);
 }
-table {
+
+.school__table {
   margin-bottom: 1rem;
+  width: 100%;
 }
 
-.school-table th,
-.school-table td {
+.school__table th,
+.school__table td {
   color: var(--black);
   background-color: var(--white3);
 }
-.school-table tr > td:nth-of-type(1),
-.school-table tr > th:nth-of-type(1) {
+
+.school__table tr > td:nth-of-type(1),
+.school__table tr > th:nth-of-type(1) {
   color: var(--white);
   background-color: var(--black3);
   max-width: 3.5rem;
 }
-.school-table tr > td:nth-of-type(3),
-.school-table tr > th:nth-of-type(3) {
+
+.school__table tr > td:nth-of-type(3),
+.school__table tr > th:nth-of-type(3) {
   text-align: center;
   width: 2rem;
   vertical-align: middle;
 }
 
-.result-links h3 {
+/* 年度リンク */
+.result__years {
+  margin-bottom: 5rem;
+}
+
+.result__years-heading {
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
   text-align: center;
 }
-.result-links .result-links-list {
+
+.result__years-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
-  gap: 0.6rem; /* 各アイテム間のスペース */
-  margin-bottom: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  list-style: none;
 }
-.result-links .result-rectangle-button {
+
+.result__years-item {
   background-color: var(--black2);
+  border-radius: 0.4rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.result-links .result-now {
+
+.result__years-item--current {
   background-color: var(--black3);
   opacity: 0.7;
 }
-.result-links .result-rectangle-button a {
+
+.result__years-item a {
   color: var(--white);
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.result-links-side .result-links-list {
+/* サイドバーリンク */
+.result__sidebar-list {
   padding: 1.5rem 1rem;
   border: 3px solid var(--white);
   background-color: var(--white3);
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.6rem;
+  list-style: none;
 }
-.result-links-side .result-link-side {
+
+.result__sidebar-item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.result-links-side .result-link-side a {
-  padding: 0 1rem;
+
+.result__sidebar-item a {
+  padding: 0 1rem 0.2rem;
   color: var(--black2);
   font-weight: bold;
   text-decoration: none;
   font-size: 1.2rem;
   text-align: center;
-  padding-bottom: 0.2rem;
   border-bottom: 0.2rem solid var(--black2);
   transition: border-bottom 150ms;
 }
-.result-links-side .result-link-side a:hover {
-  border-bottom: 0.2rem solid #00000000;
+
+.result__sidebar-item a:hover {
+  border-bottom: 0.2rem solid transparent;
 }
-.result-links-side .result-now a {
+
+.result__sidebar-item--current a {
   color: var(--pink);
   border-color: var(--pink);
   pointer-events: none;
 }
-.result-links-side .result-now a:hover {
+
+.result__sidebar-item--current a:hover {
   cursor: default;
   border-color: var(--pink);
 }
 
-#attribution-sakura {
+/* 帰属表示 */
+.result__attribution {
   text-align: right;
   margin-bottom: 3rem;
+  font-size: 0.8rem;
+  color: var(--black3);
 }

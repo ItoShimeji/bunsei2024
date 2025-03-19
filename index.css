@@ -1,3 +1,4 @@
+/* イントロセクション */
 .intro {
   height: calc(100vh - 80px);
   display: flex;
@@ -5,7 +6,7 @@
   justify-content: space-between;
 }
 
-.title-container {
+.intro__title-container {
   height: 100%;
   position: relative;
   display: flex;
@@ -13,7 +14,7 @@
   justify-content: center;
 }
 
-.BigDipper {
+.intro__big-dipper {
   position: absolute;
   right: 0;
   margin-right: 0rem;
@@ -21,125 +22,137 @@
   width: 70%;
   z-index: -1;
 }
+
+.intro__title {
+  width: 16rem;
+  text-align: left;
+}
+
+.intro__subtitle {
+  margin-top: 2rem;
+  color: var(--black2);
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro__subtitle p {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+.intro__links-container {
+  padding-bottom: 6rem;
+}
+
+.intro__links {
+  list-style: none;
+  text-align: center;
+}
+
+.intro__links-item {
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  margin-bottom: 0.6rem;
+  background-color: var(--white);
+  border: var(--blue) 2px solid;
+  border-radius: 0.4rem;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.intro__links-item a {
+  color: var(--black);
+  font-weight: 400;
+}
+
+/* 共通セクションスタイル */
+.section {
+  margin-bottom: 6rem;
+}
+
+/* ボタンリスト */
+.button-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+}
+
+.button-list__item {
+  background-color: var(--white2);
+  color: var(--black);
+  border-radius: 0.4rem;
+  padding: 0;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-list__item a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+/* アクセスセクション */
+.access__address {
+  font-weight: 600;
+}
+
+/* メディアクエリ */
 @media screen and (min-width: 480px) {
-  .BigDipper {
+  .intro__big-dipper {
     right: 0;
     margin-right: 3rem;
     margin-top: -6rem;
     width: 60%;
   }
 }
+
 @media screen and (min-width: 720px) {
-  .BigDipper {
+  .intro__big-dipper {
     right: 0;
     margin-right: 6rem;
     margin-top: -3rem;
     width: 60%;
   }
 }
+
 @media screen and (min-width: 960px) {
-  .BigDipper {
+  .intro__big-dipper {
     right: 0;
     margin-right: 3rem;
     margin-top: -6rem;
     width: 60%;
   }
-}
 
-.title {
-  width: 16rem;
-  text-align: left;
-}
-
-@media screen and (min-width: 960px) {
-  .title {
+  .intro__title {
     width: 24rem;
   }
-}
 
-.title-text {
-  margin-top: 1rem;
-  color: #404040;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.title-text {
-  margin-top: 2rem;
-}
-.title-text p {
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-}
-@media screen and (min-width: 960px) {
-  .title-text p {
+  .intro__subtitle p {
     font-size: 2rem;
     line-height: 1rem;
   }
-}
 
-.links-container {
-  padding-bottom: 6rem;
-}
-
-.links {
-  list-style: none;
-  text-align: center;
-}
-
-.links li {
-  font-size: 1.2rem;
-  padding: 0.7rem 0;
-  margin-bottom: 0.6rem;
-
-  background-color: var(--white);
-  border: var(--blue) 2px solid;
-  border-radius: 0.4rem;
-  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
-
-  cursor: pointer;
-}
-
-.links li a {
-  color: var(--black);
-  font-weight: 400;
-}
-.top-section {
-  margin-bottom: 6rem;
-}
-
-@media screen and (min-width: 960px) {
-  .top-section {
+  .section {
     margin-bottom: 12rem;
   }
-}
 
-.rectangle-button-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
-  gap: 0.4rem; /* 各アイテム間のスペース */
-}
-@media screen and (min-width: 960px) {
-  .rectangle-button-container {
+  .button-list {
     grid-template-columns: repeat(4, 1fr);
   }
-}
 
-#access .address {
-  font-weight: 600;
-}
-
-@media screen and (min-width: 960px) {
-  #access article {
+  .access {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2列 */
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    gap: 2rem; /* 各アイテム間のスペース */
+    gap: 2rem;
   }
-  #access article div:nth-of-type(1) {
-    grid-row: 1 / span 2; /* 1番目の要素を1行目から2行分にまたがらせる */
+
+  .access__address {
+    grid-row: 1 / span 2;
   }
 }

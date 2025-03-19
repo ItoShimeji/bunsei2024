@@ -1,37 +1,41 @@
+/* フッタースタイル */
 .footer {
   justify-content: end;
   background-color: var(--blue);
   color: var(--white);
-
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
 }
 
 @media screen and (min-width: 960px) {
   .footer {
     padding-top: 4rem;
   }
-  .footer-inner {
+
+  .footer__inner {
     max-width: 1280px;
     margin: auto;
   }
-  .footer-links {
+
+  .footer__nav {
     margin-top: 1rem;
   }
 }
+
 @media screen and (min-width: 1280px) {
-  .footer-inner {
+  .footer__inner {
     display: grid;
     grid-template-columns: 1fr 2fr; /* 2列 */
     grid-gap: 12rem;
   }
 }
 
-.footer-texts {
+/* フッター情報セクション */
+.footer__info {
   margin-bottom: 5rem;
 }
 
 @media screen and (min-width: 1280px) {
-  .footer-texts {
+  .footer__info {
     margin-bottom: 0;
   }
 }
@@ -43,61 +47,86 @@
   word-break: normal;
 }
 
-.footer-title {
+/* ブランディング部分 */
+.footer__branding {
   margin-bottom: 2rem;
 }
 
-.footer-title img {
+.footer__branding img {
   width: 8rem;
   text-align: left;
   margin-bottom: 0.4rem;
 }
 
-.footer-title p {
+.footer__branding p {
   font-size: 0.8rem;
   color: #cecece;
 }
 
-.footer-paragraph {
+/* テキスト部分 */
+.footer__text,
+.footer__contact {
   margin-bottom: 1.5rem;
   font-size: 0.9rem;
 }
 
-.footer-links {
+/* ナビゲーション部分 */
+.footer__nav {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2列に設定 */
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem 0.4rem;
-  padding: 0 0.4rem 0 0.4rem;
+  padding: 0 0.4rem;
 }
 
 @media screen and (min-width: 960px) {
-  .footer-links {
+  .footer__nav {
     grid-template-columns: repeat(4, 1fr);
     padding: 0;
   }
 }
 
-.footer-links h2 {
+/* ナビゲーションセクション */
+.footer__nav-heading {
   margin-bottom: 0.6rem;
   font-size: 1.1rem;
-}
-
-.footer-guidance-links > h2 {
   margin-left: 0.2rem;
 }
 
-.footer-links li {
-  padding: 0.4rem 0 0.4rem 0;
+/* ナビゲーションリスト */
+.footer__nav-list {
+  list-style: none;
+}
+
+.footer__nav-item {
+  padding: 0.4rem 0;
   display: flex;
   justify-content: start;
 }
 
-.footer-links li a {
+.footer__nav-item a {
   text-decoration: none;
   color: #bdbcbc;
   font-weight: 500;
   font-size: 1rem;
 }
-.footer-links li a:hover {
+
+.footer__nav-item a:hover {
   color: var(--white3);
+}
+
+/* 外部リンク用スタイル */
+.footer__nav-link--external {
+  position: relative;
+}
+
+.footer__nav-link--external::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.3em;
+  background-image: url("/images/page-transition.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
 }

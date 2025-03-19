@@ -1,14 +1,19 @@
-article p {
+/* 教育理念ページのスタイル */
+
+/* 段落スタイル */
+.philosophy-article p {
   line-height: 1.7rem;
   text-indent: 1em;
   margin-bottom: 0;
 }
 
-.paragraph {
+.philosophy-article__section {
   margin-bottom: 2rem;
 }
 
-#signature {
+/* 署名スタイル */
+.philosophy-article__signature {
   margin-top: 3rem;
   text-align: right;
+  font-style: italic;
 }

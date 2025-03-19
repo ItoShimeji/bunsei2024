@@ -68,6 +68,7 @@ main h1 {
   margin-bottom: 1rem;
   text-align: center;
 }
+/* 見出しスタイル */
 .default-headding {
   border-bottom: var(--blue) 4px solid;
   border-image: linear-gradient(
@@ -80,40 +81,43 @@ main h1 {
     )
     1;
 }
-/* 疑似要素で画像を挿入 */
+
+/* 見出しの装飾（疑似要素で画像を挿入） */
 .default-headding::before,
 .default-headding::after {
   content: "";
   display: inline-block;
-  vertical-align: bottom; /* 文字と垂直中央に揃える */
-  width: 2.5rem; /* 少し大きめに指定 */
+  vertical-align: bottom;
+  width: 2.5rem;
   height: 2.5rem;
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* 左側の画像 */
-.top-section:nth-of-type(odd) > .default-headding:before {
-  background-image: url("/images/bunnosuke-blue.svg"); /* 挿入したい左側のイラストのパス */
-  margin-right: 0.2rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
-  transform: rotate(-10deg); /* 外側に傾ける（角度は調整可） */
+
+/* 奇数セクションの見出し装飾 */
+.section:nth-of-type(odd) > .section__heading.default-headding::before {
+  background-image: url("/images/bunnosuke-blue.svg");
+  margin-right: 0.2rem;
+  transform: rotate(-10deg);
 }
-/* 右側の画像 */
-.top-section:nth-of-type(odd) > .default-headding::after {
-  background-image: url("/images/bunnosuke-red.svg"); /* 挿入したい右側のイラストのパス */
+
+.section:nth-of-type(odd) > .section__heading.default-headding::after {
+  background-image: url("/images/bunnosuke-red.svg");
   margin-left: 0.5rem;
-  transform: rotate(10deg); /* 外側に傾ける（角度は調整可） */
+  transform: rotate(10deg);
 }
-/* 左側の画像 */
-.top-section:nth-of-type(even) > .default-headding:before {
-  background-image: url("/images/bunnosuke-pencil.svg"); /* 挿入したい左側のイラストのパス */
-  margin-right: 0.2rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
-  transform: rotate(-10deg); /* 外側に傾ける（角度は調整可） */
+
+/* 偶数セクションの見出し装飾 */
+.section:nth-of-type(even) > .section__heading.default-headding::before {
+  background-image: url("/images/bunnosuke-pencil.svg");
+  margin-right: 0.2rem;
+  transform: rotate(-10deg);
 }
-/* 右側の画像 */
-.top-section:nth-of-type(even) > .default-headding::after {
-  background-image: url("/images/bunko-white.svg"); /* 挿入したい右側のイラストのパス */
+
+.section:nth-of-type(even) > .section__heading.default-headding::after {
+  background-image: url("/images/bunko-white.svg");
   margin-left: 0.5rem;
-  transform: rotate(10deg); /* 外側に傾ける（角度は調整可） */
+  transform: rotate(10deg);
 }
 
 @media screen and (min-width: 960px) {
@@ -122,42 +126,46 @@ main h1 {
   }
 }
 
-.main-section h2,
-main article h2 {
+/* サブ見出しスタイル */
+main h2 {
   font-size: 1.5rem;
   display: inline-block;
   padding: 0.6rem 1.5rem 0.6rem 0.6rem;
   margin: 1rem 0 1rem 0;
 }
-.main-section h2::before,
-main article h2::before {
+
+main h2::before {
   content: "";
   display: inline-block;
-  vertical-align: middle; /* 文字と垂直中央に揃える */
-  width: 1.7rem; /* 少し大きめに指定 */
+  vertical-align: middle;
+  width: 1.7rem;
   height: 1.7rem;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-right: 0.5rem;
+  margin-bottom: 0.3rem;
 }
-.main-section:nth-of-type(odd) > h2,
-main article:nth-of-type(odd) > h2 {
+
+/* 奇数セクション・記事のサブ見出し */
+.section:nth-of-type(odd) h2,
+article:nth-of-type(odd) h2 {
   border-left: solid 5px var(--secondary-header1);
 }
-.main-section:nth-of-type(odd) > h2:before,
-main article:nth-of-type(odd) > h2:before {
-  background-image: url("/images/bunnosuke-face.svg"); /* 挿入したい左側のイラストのパス */
-  margin-right: 0.5rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
-  margin-bottom: 0.3rem;
+
+.section:nth-of-type(odd) h2::before,
+article:nth-of-type(odd) h2::before {
+  background-image: url("/images/bunnosuke-face.svg");
 }
-.main-section:nth-of-type(even) > h2,
-main article:nth-of-type(even) > h2 {
+
+/* 偶数セクション・記事のサブ見出し */
+.section:nth-of-type(even) h2,
+article:nth-of-type(even) h2 {
   border-left: solid 5px var(--secondary-header2);
 }
-.main-section:nth-of-type(even) > :before,
-main article:nth-of-type(even) > :before {
-  background-image: url("/images/bunnosuke-star.svg"); /* 挿入したい左側のイラストのパス */
-  margin-right: 0.5rem; /* 文字との間隔を調整（右のイラストよりもイラスト自身の余白があるため少なめ） */
-  margin-bottom: 0.3rem;
+
+.section:nth-of-type(even) h2::before,
+article:nth-of-type(even) h2::before {
+  background-image: url("/images/bunnosuke-star.svg");
 }
 
 main p {
@@ -171,34 +179,45 @@ main table {
   overflow-wrap: break-word;
   word-break: normal;
 }
-
+/* リスト共通スタイル */
 main ul,
 main ol {
   list-style-type: none;
 }
-ul.list-star > li:first-child,
-ul.list-check > li:first-child,
-ol.list-circle > li:first-child {
-  margin-top: 0.5rem;
-}
-main ul > li {
-  position: relative;
-  padding: 0rem 0.3rem 0.3rem 1.3rem;
-}
+
+main ul > li,
 main ol > li {
   position: relative;
-  padding: 0rem 0.3rem 0.3rem 1.6rem;
 }
-ul.list-star > li {
-  margin-bottom: 1.3rem;
+
+main ul > li {
+  padding: 0 0.3rem 0.3rem 1.3rem;
 }
+
+main ol > li {
+  padding: 0 0.3rem 0.3rem 1.6rem;
+}
+
 main ul > li > h3,
 main ol > li > h3 {
   font-size: 1.1rem;
   color: var(--black);
   margin-bottom: 0.2rem;
 }
-ul.list-check > li::before {
+
+/* リスト種類別スタイル */
+.list-star > li:first-child,
+.list-check > li:first-child,
+.list-circle > li:first-child {
+  margin-top: 0.5rem;
+}
+
+.list-star > li {
+  margin-bottom: 1.3rem;
+}
+
+/* チェックリスト */
+.list-check > li::before {
   position: absolute;
   content: "";
   display: block;
@@ -210,7 +229,9 @@ ul.list-check > li::before {
   border-bottom: 3px solid var(--blue2);
   transform: rotate(-45deg);
 }
-ul.list-star > li::before {
+
+/* スターリスト */
+.list-star > li::before {
   position: absolute;
   content: "★";
   top: 0;
@@ -220,7 +241,9 @@ ul.list-star > li::before {
   border-radius: 100%;
   color: #e0be25;
 }
-ol.list-circle > li::before {
+
+/* 丸数字リスト */
+.list-circle > li::before {
   content: counters(list-item, ".") " ";
   background-color: #1baf6c;
   color: var(--white);
@@ -268,25 +291,32 @@ table {
   width: 100%;
 }
 
-.rectangle-button {
+/* ボタンスタイル */
+.button-list__item {
   background-color: var(--white2);
-  color: #262626;
+  color: var(--black);
   border-radius: 0.4rem;
-  padding: 0rem;
+  padding: 0;
   height: 3rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   cursor: pointer;
+  position: relative;
 }
-.rectangle-button a {
+
+.button-list__item a {
   color: var(--black);
   text-decoration: none;
   font-size: 0.8rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.rectangle-button a::after {
+
+.button-list__item a::after {
   content: "";
   position: absolute;
   top: 50%;

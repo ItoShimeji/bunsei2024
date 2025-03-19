@@ -1,0 +1,46 @@
+/* お知らせページ固有のスタイル */
+
+/* お知らせコンテンツ全体 */
+.notice-content {
+  margin-bottom: 6rem;
+}
+
+/* お知らせ記事 */
+.notice-article {
+  margin-bottom: 4rem;
+}
+
+.notice-article__heading {
+  margin-bottom: 1.5rem;
+}
+
+/* お知らせリスト */
+.notice-list__item {
+  margin-bottom: 2rem;
+}
+
+.notice-list__heading {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* お知らせテーブル */
+.notice-table {
+  margin-bottom: 1rem;
+}
+
+.notice-table th {
+  width: 6rem;
+  text-align: center;
+}
+
+/* メディアクエリ */
+@media screen and (min-width: 960px) {
+  .notice-content {
+    margin-bottom: 8rem;
+  }
+
+  .notice-article {
+    margin-bottom: 6rem;
+  }
+}

@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="result.css" />
-    <title>ぶんせい</title>
+    <title>入試結果 | ぶんせい</title>
   </head>
   <body>
     <div class="container">
       <header class="header"></header>
-      <div class="contents-container">
-        <div class="result-links-side">
-          <ol class="result-links-list"></ol>
+      <div class="result__container">
+        <div class="result__sidebar">
+          <ol class="result__sidebar-list"></ol>
         </div>
         <main>
-          <h1 class="result-heading">2024年入試結果</h1>
-          <div id="result"></div>
-          <div class="result-links">
-            <h3>他の年度</h3>
-            <ol class="rectangle-button-container result-links-list"></ol>
+          <h1 class="result__heading">2024年入試結果</h1>
+          <div class="result__content" id="result"></div>
+          <div class="result__years">
+            <h3 class="result__years-heading">他の年度</h3>
+            <ol class="result__years-list"></ol>
           </div>
-          <p id="attribution-sakura">
-            Image by <a href="https://freepik.com">Freepik</a>
+          <p class="result__attribution">
+            Image by
+            <a
+              href="https://freepik.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Freepik</a
+            >
           </p>
         </main>
       </div>
